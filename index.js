@@ -28,7 +28,6 @@ const myFakeInput = {
     }
   ]
 }
-// process.stdin.setEncoding('utf8')
 
 console.log('Gimme some of that juicy input\n')
 
