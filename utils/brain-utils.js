@@ -4,19 +4,22 @@ let brainUtils = module.exports = {}
 let trainedNet
 
 const processLanguageData = (language) => {
-    let languageObject = {}
-    const languageName = language.name
-    const majority = (language.percent > 50) ? 1 : 0
-    languageObject[languageName] = majority
-    return languageObject
+  let languageObject = {}
+  const languageName = language.name
+  const percentage = (language.percent / 100)
+  languageObject[languageName] = percentage
+  return languageObject
 }
+
+const reducer = (accumulator, currentObject) => Object.assign(currentObject, accumulator)
 
 const formatInput = (InputData, type) => {
   const data = (type === 'training') ? InputData.input : InputData
   const monday = (data.day === 'Monday') ? 1 : 0
   const mondayArray = [{ Monday: monday }]
   const languageArray = data.languages.map(processLanguageData)
-  return mondayArray.concat(languageArray)
+  const groupedArray = mondayArray.concat(languageArray)
+  return groupedArray.reduce(reducer, {})
 }
 
 const processTrainingData = (trainingData) => {
@@ -30,10 +33,7 @@ const processTrainingData = (trainingData) => {
 
 brainUtils.train = (trainingData) => {
   let net = new brain.NeuralNetwork()
-  let test = processTrainingData(trainingData)
-  // net.train(processTrainingData(trainingData))
-  console.log(test)
-  net.train(test)
+  net.train(processTrainingData(trainingData))
   trainedNet = net.toFunction()
 }
 

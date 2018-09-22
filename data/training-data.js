@@ -4,24 +4,24 @@ const trainingData = [
       day: 'Monday',
       languages: [
         {
-          "name": "JavaScript",
-          "percent": 98.82,
+          'name': 'JavaScript',
+          'percent': 98.82,
         },
         {
-          "name": "Markdown",
-          "percent": 0.66,
+          'name': 'Markdown',
+          'percent': 0.66,
         },
         {
-          "name": "JSON",
-          "percent": 0.46,
+          'name': 'JSON',
+          'percent': 0.46,
         },
         {
-          "name": "VimL",
-          "percent": 0.04,
+          'name': 'VimL',
+          'percent': 0.04,
         },
         {
-          "name": "LESS",
-          "percent": 0.03,
+          'name': 'LESS',
+          'percent': 0.03,
         }
       ]
     },
@@ -32,52 +32,52 @@ const trainingData = [
       day: 'Monday',
       languages: [
         {
-          "name": "JavaScript",
-          "percent": 56.82,
+          'name': 'JavaScript',
+          'percent': 46.82,
         },
         {
-          "name": "Markdown",
-          "percent": 20.18,
+          'name': 'Markdown',
+          'percent': 50.18,
         },
         {
-          "name": "JSON",
-          "percent": 10.00,
+          'name': 'JSON',
+          'percent': 10.00,
         },
         {
-          "name": "VimL",
-          "percent": 11.00,
+          'name': 'VimL',
+          'percent': 11.00,
         },
         {
-          "name": "LESS",
-          "percent": 1.00,
+          'name': 'LESS',
+          'percent': 1.00,
         }
       ]
     },
-    output: { jsDay: 0 }
+    output: { MarkDownDay: 0 }
   },
   {
     input: {
       day: 'Monday',
       languages: [
         {
-          "name": "JavaScript",
-          "percent": 48.10,
+          'name': 'JavaScript',
+          'percent': 48.10,
         },
         {
-          "name": "Markdown",
-          "percent": 30.00,
+          'name': 'Markdown',
+          'percent': 30.00,
         },
         {
-          "name": "JSON",
-          "percent": 6.00,
+          'name': 'JSON',
+          'percent': 6.00,
         },
         {
-          "name": "VimL",
-          "percent": 4.00,
+          'name': 'VimL',
+          'percent': 4.00,
         },
         {
-          "name": "LESS",
-          "percent": 1.90,
+          'name': 'LESS',
+          'percent': 1.90,
         }
       ]
     },
