@@ -85,4 +85,29 @@ const trainingData = [
   }
 ]
 
+const myFakeInput = {
+  day: 'Monday',
+  languages: [
+    {
+      'name': 'JavaScript',
+      'percent': 10 },
+    {
+      'name': 'Markdown',
+      'percent': 80
+    },
+    {
+      'name': 'JSON',
+      'percent': 2
+    },
+    {
+      'name': 'VimL',
+      'percent': 1
+    },
+    {
+      'name': 'LESS',
+      'percent': 7
+    }
+  ]
+}
+
 module.exports.trainingData = trainingData

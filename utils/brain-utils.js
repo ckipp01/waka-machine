@@ -1,8 +1,6 @@
 const brain = require('brain.js')
 let brainUtils = module.exports = {}
 
-let trainedNet
-
 const processLanguageData = (language) => {
   let languageObject = {}
   const languageName = language.name
@@ -30,6 +28,8 @@ const processTrainingData = (trainingData) => {
     }
   })
 }
+
+let trainedNet
 
 brainUtils.train = (trainingData) => {
   let net = new brain.NeuralNetwork()

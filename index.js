@@ -1,33 +1,20 @@
 'use strict'
-const trainingData = require('./data/training-data.js')
-const utils = require('./utils/brain-utils.js')
+// const trainingData = require('./data/training-data.js')
+const brainUtils = require('./utils/brain-utils')
+const inputUtils = require('./utils/input-utils')
+const path = require('path')
+const myDir = path.join(__dirname, '/data/')
 
-utils.train(trainingData.trainingData)
-
-const myFakeInput = {
-  day: 'Monday',
-  languages: [
-    {
-      'name': 'JavaScript',
-      'percent': 10 },
-    {
-      'name': 'Markdown',
-      'percent': 80
-    },
-    {
-      'name': 'JSON',
-      'percent': 2
-    },
-    {
-      'name': 'VimL',
-      'percent': 1
-    },
-    {
-      'name': 'LESS',
-      'percent': 7
-    }
-  ]
-}
+inputUtils.gatherJSON(myDir)
+  .then(json => {
+    return inputUtils.formatInput(json)
+  })
+  .then(preparedInput => {
+    console.log(preparedInput)
+  })
+  .catch(err => {
+    throw err
+  })
 
 console.log('Gimme some of that juicy input\n')
 
@@ -35,9 +22,9 @@ process.stdin.on('readable', () => {
   const chunk = process.stdin.read()
   if (chunk !== null) {
     process.stdout.write('Processing input \n')
-    utils.execute(myFakeInput).then((result) => {
-      console.log(result)
-    })
+    // brainUtils.execute(myFakeInput).then((result) => {
+    //   console.log(result)
+    // })
   }
 })
 
