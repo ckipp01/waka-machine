@@ -54,6 +54,20 @@ const formatLanguages = (languages) => {
   return new Promise((resolve, reject) => {
     const languageObjects = languages.reduce(formatLanguage, {})
     resolve(languageObjects)
+    // TODO add in a reject
+  })
+}
+
+const formatOperatingSystem = (osObject, os) => {
+  osObject[os.name] = os.percent / 100
+  return osObject
+}
+
+const formatOperatingSystems = (osData) => {
+  return new Promise((resolve, reject) => {
+    const osObjects = osData.reduce(formatOperatingSystem, {})
+    resolve(osObjects)
+    // TODO add in a reject
   })
 }
 
@@ -64,10 +78,15 @@ inputUtils.formatInput = (input) => {
     input.forEach(record => {
       Promise.all([
         getDayOfWeek(new Date(record.start)),
-        formatLanguages(record.data[0].languages)
+        formatLanguages(record.data[0].languages),
+        formatOperatingSystems(record.data[0].operating_systems)
       ])
-        .then(results => {
-          formatedData.push({ ...results[0], ...results[1] })
+        .then(formatedInput => {
+          formatedData.push({
+            ...formatedInput[0],
+            ...formatedInput[1],
+            ...formatedInput[2]
+          })
           resolve(formatedData)
         })
     })
