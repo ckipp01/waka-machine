@@ -53,8 +53,12 @@ const formatLanguage = (languageObject, language) => {
 const formatLanguages = (languages) => {
   return new Promise((resolve, reject) => {
     const languageObjects = languages.reduce(formatLanguage, {})
-    resolve(languageObjects)
-    // TODO add in a reject
+    if (Object.keys(languageObjects).length === 0 &&
+      languageObjects.constructor === Object) {
+      reject(new Error('unable to gather language inforamtion'))
+    } else {
+      resolve(languageObjects)
+    }
   })
 }
 
@@ -67,7 +71,12 @@ const formatOperatingSystems = (osData) => {
   return new Promise((resolve, reject) => {
     const osObjects = osData.reduce(formatOperatingSystem, {})
     resolve(osObjects)
-    // TODO add in a reject
+    if (Object.keys(osObjects).length === 0 &&
+      osObjects.constructor === Object) {
+      reject(new Error('unable to gather os inforamtion'))
+    } else {
+      resolve(osObjects)
+    }
   })
 }
 
@@ -82,14 +91,18 @@ inputUtils.formatInput = (input) => {
         formatOperatingSystems(record.data[0].operating_systems)
       ])
         .then(formatedInput => {
-          formatedData.push({
+          const outputObject = {}
+          const inputObject = {
             ...formatedInput[0],
             ...formatedInput[1],
             ...formatedInput[2]
-          })
+          }
+          outputObject[record.data[0].languages[0].name] = 1
+          formatedData.push({ input: inputObject, output: outputObject })
           resolve(formatedData)
+        }, err => {
+          reject(err)
         })
     })
-    // TODO figure out some error checking here
   })
 }
