@@ -1,16 +1,15 @@
 'use strict'
-// const trainingData = require('./data/training-data.js')
 const brainUtils = require('./utils/brain-utils')
-const inputUtils = require('./utils/input-utils')
+const trainingUtils = require('./utils/training-utils')
 const path = require('path')
 const myDir = path.join(__dirname, '/data/')
 
-inputUtils.gatherJSON(myDir)
+trainingUtils.gatherJSON(myDir)
   .then(json => {
-    return inputUtils.formatInput(json)
+    return trainingUtils.formatInput(json)
   })
   .then(preparedInput => {
-    console.log(preparedInput)
+    brainUtils.train(preparedInput)
   })
   .catch(err => {
     throw err
@@ -21,10 +20,10 @@ console.log('Gimme some of that juicy input\n')
 process.stdin.on('readable', () => {
   const chunk = process.stdin.read()
   if (chunk !== null) {
-    process.stdout.write('Processing input \n')
-    // brainUtils.execute(myFakeInput).then((result) => {
-    //   console.log(result)
-    // })
+    process.stdout.write(`Processing input ${chunk} \n`)
+    brainUtils.execute(chunk).then((result) => {
+      console.log(result)
+    })
   }
 })
 

@@ -1,8 +1,8 @@
 const fs = require('fs')
 const { promisify } = require('util')
-let inputUtils = module.exports = {}
+let trainingUtils = module.exports = {}
 
-inputUtils.gatherJSON = (dir) => {
+trainingUtils.gatherJSON = (dir) => {
   return new Promise((resolve, reject) => {
     promisify(fs.readdir)(dir)
       .then((filenames) => {
@@ -46,7 +46,7 @@ const getDayOfWeek = (date) => {
 }
 
 const formatLanguage = (languageObject, language) => {
-  languageObject[language.name] = language.percent / 100
+  languageObject[language.name] = Number((language.percent / 100).toFixed(2))
   return languageObject
 }
 
@@ -63,7 +63,7 @@ const formatLanguages = (languages) => {
 }
 
 const formatOperatingSystem = (osObject, os) => {
-  osObject[os.name] = os.percent / 100
+  osObject[os.name] = Number((os.percent / 100).toFixed(2))
   return osObject
 }
 
@@ -80,7 +80,7 @@ const formatOperatingSystems = (osData) => {
   })
 }
 
-inputUtils.formatInput = (input) => {
+trainingUtils.formatInput = (input) => {
   return new Promise((resolve, reject) => {
     const formatedData = []
     // TODO replace this with a reduce
@@ -97,7 +97,7 @@ inputUtils.formatInput = (input) => {
             ...formatedInput[1],
             ...formatedInput[2]
           }
-          outputObject[record.data[0].languages[0].name] = 1
+          outputObject[record.data[0].languages[0].name + ' Day'] = 1
           formatedData.push({ input: inputObject, output: outputObject })
           resolve(formatedData)
         }, err => {
