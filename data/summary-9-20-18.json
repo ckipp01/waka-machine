@@ -1,914 +1,914 @@
 {
-    "data": [
+  "data": [
+    {
+      "categories": [
         {
-            "categories": [
-                {
-                    "digital": "8:49:47",
-                    "hours": 8,
-                    "minutes": 49,
-                    "name": "Coding",
-                    "percent": 100.0,
-                    "seconds": 47,
-                    "text": "8 hrs 49 mins",
-                    "total_seconds": 31787
-                }
-            ],
-            "dependencies": [
-                {
-                    "digital": "0:42:10",
-                    "hours": 0,
-                    "minutes": 42,
-                    "name": "nl.ebpi.common.data.ISeq",
-                    "percent": 6.37,
-                    "seconds": 10,
-                    "text": "42 mins",
-                    "total_seconds": 2530
-                },
-                {
-                    "digital": "0:41:04",
-                    "hours": 0,
-                    "minutes": 41,
-                    "name": "g.slf4j.LoggerFactory",
-                    "percent": 6.21,
-                    "seconds": 4,
-                    "text": "41 mins",
-                    "total_seconds": 2464
-                },
-                {
-                    "digital": "0:40:58",
-                    "hours": 0,
-                    "minutes": 40,
-                    "name": "nl.ebpi.husky.generator.form.model.Control",
-                    "percent": 6.19,
-                    "seconds": 58,
-                    "text": "40 mins",
-                    "total_seconds": 2458
-                },
-                {
-                    "digital": "0:40:58",
-                    "hours": 0,
-                    "minutes": 40,
-                    "name": "nl.ebpi.husky.generator.form.model.table.Cell",
-                    "percent": 6.19,
-                    "seconds": 58,
-                    "text": "40 mins",
-                    "total_seconds": 2458
-                },
-                {
-                    "digital": "0:40:53",
-                    "hours": 0,
-                    "minutes": 40,
-                    "name": "g.jgrapht.traverse.TopologicalOrderIterator",
-                    "percent": 6.18,
-                    "seconds": 53,
-                    "text": "40 mins",
-                    "total_seconds": 2453
-                },
-                {
-                    "digital": "0:40:53",
-                    "hours": 0,
-                    "minutes": 40,
-                    "name": "nl.ebpi.common.data.Relations.Implicits",
-                    "percent": 6.18,
-                    "seconds": 53,
-                    "text": "40 mins",
-                    "total_seconds": 2453
-                },
-                {
-                    "digital": "0:40:53",
-                    "hours": 0,
-                    "minutes": 40,
-                    "name": "nl.ebpi.husky.generator.FactId",
-                    "percent": 6.18,
-                    "seconds": 53,
-                    "text": "40 mins",
-                    "total_seconds": 2453
-                },
-                {
-                    "digital": "0:40:53",
-                    "hours": 0,
-                    "minutes": 40,
-                    "name": "nl.ebpi.common.data.Relations",
-                    "percent": 6.18,
-                    "seconds": 53,
-                    "text": "40 mins",
-                    "total_seconds": 2453
-                },
-                {
-                    "digital": "0:40:53",
-                    "hours": 0,
-                    "minutes": 40,
-                    "name": "g.jgrapht.graph.DirectedSubgraph",
-                    "percent": 6.18,
-                    "seconds": 53,
-                    "text": "40 mins",
-                    "total_seconds": 2453
-                },
-                {
-                    "digital": "0:40:53",
-                    "hours": 0,
-                    "minutes": 40,
-                    "name": "nl.ebpi.husky.generator.form.model.table.InputCell",
-                    "percent": 6.18,
-                    "seconds": 53,
-                    "text": "40 mins",
-                    "total_seconds": 2453
-                },
-                {
-                    "digital": "0:40:53",
-                    "hours": 0,
-                    "minutes": 40,
-                    "name": "g.jgrapht.DirectedGraph",
-                    "percent": 6.18,
-                    "seconds": 53,
-                    "text": "40 mins",
-                    "total_seconds": 2453
-                },
-                {
-                    "digital": "0:40:53",
-                    "hours": 0,
-                    "minutes": 40,
-                    "name": "g.jgrapht.graph.SimpleDirectedGraph",
-                    "percent": 6.18,
-                    "seconds": 53,
-                    "text": "40 mins",
-                    "total_seconds": 2453
-                },
-                {
-                    "digital": "0:40:53",
-                    "hours": 0,
-                    "minutes": 40,
-                    "name": "g.jgrapht.alg.StrongConnectivityInspector",
-                    "percent": 6.18,
-                    "seconds": 53,
-                    "text": "40 mins",
-                    "total_seconds": 2453
-                },
-                {
-                    "digital": "0:40:53",
-                    "hours": 0,
-                    "minutes": 40,
-                    "name": "g.jgrapht.alg.TransitiveClosure",
-                    "percent": 6.18,
-                    "seconds": 53,
-                    "text": "40 mins",
-                    "total_seconds": 2453
-                },
-                {
-                    "digital": "0:40:53",
-                    "hours": 0,
-                    "minutes": 40,
-                    "name": "g.slf4j.Logger",
-                    "percent": 6.18,
-                    "seconds": 53,
-                    "text": "40 mins",
-                    "total_seconds": 2453
-                },
-                {
-                    "digital": "0:40:53",
-                    "hours": 0,
-                    "minutes": 40,
-                    "name": "scala.collection.JavaConverters",
-                    "percent": 6.18,
-                    "seconds": 53,
-                    "text": "40 mins",
-                    "total_seconds": 2453
-                },
-                {
-                    "digital": "0:01:09",
-                    "hours": 0,
-                    "minutes": 1,
-                    "name": "java.net.URI",
-                    "percent": 0.17,
-                    "seconds": 9,
-                    "text": "1 min",
-                    "total_seconds": 69
-                },
-                {
-                    "digital": "0:01:04",
-                    "hours": 0,
-                    "minutes": 1,
-                    "name": "nl.ebpi.husky.generator.layoutmodel.LayoutModelTable.Header",
-                    "percent": 0.16,
-                    "seconds": 4,
-                    "text": "1 min",
-                    "total_seconds": 64
-                },
-                {
-                    "digital": "0:00:05",
-                    "hours": 0,
-                    "minutes": 0,
-                    "name": "nl.ebpi.inuit.formula.api.DtsContext",
-                    "percent": 0.01,
-                    "seconds": 5,
-                    "text": "5 secs",
-                    "total_seconds": 5
-                },
-                {
-                    "digital": "0:00:05",
-                    "hours": 0,
-                    "minutes": 0,
-                    "name": "nl.ebpi.tqa.model.relationship.ElementLabelRelationship",
-                    "percent": 0.01,
-                    "seconds": 5,
-                    "text": "5 secs",
-                    "total_seconds": 5
-                },
-                {
-                    "digital": "0:00:05",
-                    "hours": 0,
-                    "minutes": 0,
-                    "name": "nl.ebpi.inuit.table.api.DefaultTableLayoutGenerator",
-                    "percent": 0.01,
-                    "seconds": 5,
-                    "text": "5 secs",
-                    "total_seconds": 5
-                },
-                {
-                    "digital": "0:00:05",
-                    "hours": 0,
-                    "minutes": 0,
-                    "name": "nl.ebpi.husky.generator.Project",
-                    "percent": 0.01,
-                    "seconds": 5,
-                    "text": "5 secs",
-                    "total_seconds": 5
-                },
-                {
-                    "digital": "0:00:05",
-                    "hours": 0,
-                    "minutes": 0,
-                    "name": "nl.ebpi.husky.generator.form.model.table.FlattenSimpleTableTransformer",
-                    "percent": 0.01,
-                    "seconds": 5,
-                    "text": "5 secs",
-                    "total_seconds": 5
-                },
-                {
-                    "digital": "0:00:05",
-                    "hours": 0,
-                    "minutes": 0,
-                    "name": "nl.ebpi.inuit.table.api.DefaultStructuralModelGenerator",
-                    "percent": 0.01,
-                    "seconds": 5,
-                    "text": "5 secs",
-                    "total_seconds": 5
-                },
-                {
-                    "digital": "0:00:05",
-                    "hours": 0,
-                    "minutes": 0,
-                    "name": "nl.ebpi.tqa.model.relationship.NonStandardRelationship",
-                    "percent": 0.01,
-                    "seconds": 5,
-                    "text": "5 secs",
-                    "total_seconds": 5
-                },
-                {
-                    "digital": "0:00:05",
-                    "hours": 0,
-                    "minutes": 0,
-                    "name": "nl.ebpi.husky.generator.form.model.table.ParentLevelTransformer",
-                    "percent": 0.01,
-                    "seconds": 5,
-                    "text": "5 secs",
-                    "total_seconds": 5
-                },
-                {
-                    "digital": "0:00:05",
-                    "hours": 0,
-                    "minutes": 0,
-                    "name": "scala.util.Try",
-                    "percent": 0.01,
-                    "seconds": 5,
-                    "text": "5 secs",
-                    "total_seconds": 5
-                },
-                {
-                    "digital": "0:00:05",
-                    "hours": 0,
-                    "minutes": 0,
-                    "name": "nl.ebpi.husky.generator.form.navigation.FormNavigationTreeBuilder",
-                    "percent": 0.01,
-                    "seconds": 5,
-                    "text": "5 secs",
-                    "total_seconds": 5
-                },
-                {
-                    "digital": "0:00:05",
-                    "hours": 0,
-                    "minutes": 0,
-                    "name": "nl.ebpi.inuit.table.layoutprocess.factsourceenhancer.factory.FactSourceEnhancers",
-                    "percent": 0.01,
-                    "seconds": 5,
-                    "text": "5 secs",
-                    "total_seconds": 5
-                },
-                {
-                    "digital": "0:00:05",
-                    "hours": 0,
-                    "minutes": 0,
-                    "name": "nl.ebpi.husky.generator.form.model.table.SimpleTableTransformer",
-                    "percent": 0.01,
-                    "seconds": 5,
-                    "text": "5 secs",
-                    "total_seconds": 5
-                },
-                {
-                    "digital": "0:00:05",
-                    "hours": 0,
-                    "minutes": 0,
-                    "name": "scala.annotation.tailrec",
-                    "percent": 0.01,
-                    "seconds": 5,
-                    "text": "5 secs",
-                    "total_seconds": 5
-                },
-                {
-                    "digital": "0:00:05",
-                    "hours": 0,
-                    "minutes": 0,
-                    "name": "nl.ebpi.husky.generator",
-                    "percent": 0.01,
-                    "seconds": 5,
-                    "text": "5 secs",
-                    "total_seconds": 5
-                },
-                {
-                    "digital": "0:00:05",
-                    "hours": 0,
-                    "minutes": 0,
-                    "name": "nl.ebpi.husky.generator.ontology.relationship",
-                    "percent": 0.01,
-                    "seconds": 5,
-                    "text": "5 secs",
-                    "total_seconds": 5
-                },
-                {
-                    "digital": "0:00:05",
-                    "hours": 0,
-                    "minutes": 0,
-                    "name": "nl.ebpi.husky.generator.form.model.Form",
-                    "percent": 0.01,
-                    "seconds": 5,
-                    "text": "5 secs",
-                    "total_seconds": 5
-                },
-                {
-                    "digital": "0:00:05",
-                    "hours": 0,
-                    "minutes": 0,
-                    "name": "nl.ebpi.husky.generator.form.model.table.TableTransformer",
-                    "percent": 0.01,
-                    "seconds": 5,
-                    "text": "5 secs",
-                    "total_seconds": 5
-                },
-                {
-                    "digital": "0:00:05",
-                    "hours": 0,
-                    "minutes": 0,
-                    "name": "nl.ebpi.husky.generator.form.model.NopControl",
-                    "percent": 0.01,
-                    "seconds": 5,
-                    "text": "5 secs",
-                    "total_seconds": 5
-                },
-                {
-                    "digital": "0:00:05",
-                    "hours": 0,
-                    "minutes": 0,
-                    "name": "nl.ebpi.tqa.taxonomies.TaxonomyDocFactory",
-                    "percent": 0.01,
-                    "seconds": 5,
-                    "text": "5 secs",
-                    "total_seconds": 5
-                },
-                {
-                    "digital": "0:00:05",
-                    "hours": 0,
-                    "minutes": 0,
-                    "name": "nl.ebpi.husky.generator.form.model.table.TypedDimensionTableTransformer",
-                    "percent": 0.01,
-                    "seconds": 5,
-                    "text": "5 secs",
-                    "total_seconds": 5
-                },
-                {
-                    "digital": "0:00:05",
-                    "hours": 0,
-                    "minutes": 0,
-                    "name": "nl.ebpi.tqa.printing.DocumentPrinterUtils",
-                    "percent": 0.01,
-                    "seconds": 5,
-                    "text": "5 secs",
-                    "total_seconds": 5
-                },
-                {
-                    "digital": "0:00:05",
-                    "hours": 0,
-                    "minutes": 0,
-                    "name": "nl.ebpi.husky.generator.form.model.Text",
-                    "percent": 0.01,
-                    "seconds": 5,
-                    "text": "5 secs",
-                    "total_seconds": 5
-                },
-                {
-                    "digital": "0:00:05",
-                    "hours": 0,
-                    "minutes": 0,
-                    "name": "eu.cdevreeze.yaidom.simple.Elem",
-                    "percent": 0.01,
-                    "seconds": 5,
-                    "text": "5 secs",
-                    "total_seconds": 5
-                },
-                {
-                    "digital": "0:00:05",
-                    "hours": 0,
-                    "minutes": 0,
-                    "name": "nl.ebpi.husky.generator.layoutmodel.LayoutModelBuilder",
-                    "percent": 0.01,
-                    "seconds": 5,
-                    "text": "5 secs",
-                    "total_seconds": 5
-                },
-                {
-                    "digital": "0:00:05",
-                    "hours": 0,
-                    "minutes": 0,
-                    "name": "nl.ebpi.husky.generator.form.model.ConceptLabelTranslation",
-                    "percent": 0.01,
-                    "seconds": 5,
-                    "text": "5 secs",
-                    "total_seconds": 5
-                },
-                {
-                    "digital": "0:00:05",
-                    "hours": 0,
-                    "minutes": 0,
-                    "name": "scala.collection.immutable",
-                    "percent": 0.01,
-                    "seconds": 5,
-                    "text": "5 secs",
-                    "total_seconds": 5
-                },
-                {
-                    "digital": "0:00:05",
-                    "hours": 0,
-                    "minutes": 0,
-                    "name": "eu.cdevreeze.yaidom.core.EName",
-                    "percent": 0.01,
-                    "seconds": 5,
-                    "text": "5 secs",
-                    "total_seconds": 5
-                },
-                {
-                    "digital": "0:00:05",
-                    "hours": 0,
-                    "minutes": 0,
-                    "name": "nl.ebpi.husky.generator.Versions",
-                    "percent": 0.01,
-                    "seconds": 5,
-                    "text": "5 secs",
-                    "total_seconds": 5
-                },
-                {
-                    "digital": "0:00:05",
-                    "hours": 0,
-                    "minutes": 0,
-                    "name": "nl.ebpi.tqa.relationshipaware.RelationshipAwareTaxonomy",
-                    "percent": 0.01,
-                    "seconds": 5,
-                    "text": "5 secs",
-                    "total_seconds": 5
-                },
-                {
-                    "digital": "0:00:05",
-                    "hours": 0,
-                    "minutes": 0,
-                    "name": "nl.ebpi.husky.generator.form.model.TranslationKey",
-                    "percent": 0.01,
-                    "seconds": 5,
-                    "text": "5 secs",
-                    "total_seconds": 5
-                },
-                {
-                    "digital": "0:00:05",
-                    "hours": 0,
-                    "minutes": 0,
-                    "name": "nl.ebpi.tqa.XmlFragmentKey",
-                    "percent": 0.01,
-                    "seconds": 5,
-                    "text": "5 secs",
-                    "total_seconds": 5
-                },
-                {
-                    "digital": "0:00:05",
-                    "hours": 0,
-                    "minutes": 0,
-                    "name": "nl.ebpi.husky.generator.ontology.pagination",
-                    "percent": 0.01,
-                    "seconds": 5,
-                    "text": "5 secs",
-                    "total_seconds": 5
-                },
-                {
-                    "digital": "0:00:05",
-                    "hours": 0,
-                    "minutes": 0,
-                    "name": "nl.ebpi.tqa.model.taxonomydom.GlobalElementDeclaration",
-                    "percent": 0.01,
-                    "seconds": 5,
-                    "text": "5 secs",
-                    "total_seconds": 5
-                },
-                {
-                    "digital": "0:00:05",
-                    "hours": 0,
-                    "minutes": 0,
-                    "name": "nl.ebpi.husky.generator.form.model.Page",
-                    "percent": 0.01,
-                    "seconds": 5,
-                    "text": "5 secs",
-                    "total_seconds": 5
-                },
-                {
-                    "digital": "0:00:05",
-                    "hours": 0,
-                    "minutes": 0,
-                    "name": "nl.ebpi.husky.generator.form.model.PageSection",
-                    "percent": 0.01,
-                    "seconds": 5,
-                    "text": "5 secs",
-                    "total_seconds": 5
-                },
-                {
-                    "digital": "0:00:05",
-                    "hours": 0,
-                    "minutes": 0,
-                    "name": "nl.ebpi.tqa.model.taxonomydom.tabledom.Table",
-                    "percent": 0.01,
-                    "seconds": 5,
-                    "text": "5 secs",
-                    "total_seconds": 5
-                },
-                {
-                    "digital": "0:00:05",
-                    "hours": 0,
-                    "minutes": 0,
-                    "name": "nl.ebpi.xbrl.commons",
-                    "percent": 0.01,
-                    "seconds": 5,
-                    "text": "5 secs",
-                    "total_seconds": 5
-                },
-                {
-                    "digital": "0:00:05",
-                    "hours": 0,
-                    "minutes": 0,
-                    "name": "nl.ebpi.husky.generator.ontology",
-                    "percent": 0.01,
-                    "seconds": 5,
-                    "text": "5 secs",
-                    "total_seconds": 5
-                },
-                {
-                    "digital": "0:00:05",
-                    "hours": 0,
-                    "minutes": 0,
-                    "name": "nl.ebpi.husky.generator.ontology.pagination.NavigationNode",
-                    "percent": 0.01,
-                    "seconds": 5,
-                    "text": "5 secs",
-                    "total_seconds": 5
-                },
-                {
-                    "digital": "0:00:05",
-                    "hours": 0,
-                    "minutes": 0,
-                    "name": "nl.ebpi.husky.generator.form.model.EntrypointData",
-                    "percent": 0.01,
-                    "seconds": 5,
-                    "text": "5 secs",
-                    "total_seconds": 5
-                },
-                {
-                    "digital": "0:00:05",
-                    "hours": 0,
-                    "minutes": 0,
-                    "name": "scala.reflect.ClassTag",
-                    "percent": 0.01,
-                    "seconds": 5,
-                    "text": "5 secs",
-                    "total_seconds": 5
-                },
-                {
-                    "digital": "0:00:05",
-                    "hours": 0,
-                    "minutes": 0,
-                    "name": "nl.ebpi.tqa.model.taxonomydom.tabledom",
-                    "percent": 0.01,
-                    "seconds": 5,
-                    "text": "5 secs",
-                    "total_seconds": 5
-                },
-                {
-                    "digital": "0:00:01",
-                    "hours": 0,
-                    "minutes": 0,
-                    "name": "com.github.ghik.silencer.silent",
-                    "percent": 0.0,
-                    "seconds": 1,
-                    "text": "1 sec",
-                    "total_seconds": 1
-                },
-                {
-                    "digital": "0:00:01",
-                    "hours": 0,
-                    "minutes": 0,
-                    "name": "eu.cdevreeze.yaidom.core.QName",
-                    "percent": 0.0,
-                    "seconds": 1,
-                    "text": "1 sec",
-                    "total_seconds": 1
-                },
-                {
-                    "digital": "0:00:00",
-                    "hours": 0,
-                    "minutes": 0,
-                    "name": "nl.ebpi.xbrl.instance.XbrliObjectFactory",
-                    "percent": 0.0,
-                    "seconds": 0,
-                    "text": "0 secs",
-                    "total_seconds": 0
-                },
-                {
-                    "digital": "0:00:00",
-                    "hours": 0,
-                    "minutes": 0,
-                    "name": "nl.ebpi.xbrl.instance.build.XbrliPeriodQName",
-                    "percent": 0.0,
-                    "seconds": 0,
-                    "text": "0 secs",
-                    "total_seconds": 0
-                },
-                {
-                    "digital": "0:00:00",
-                    "hours": 0,
-                    "minutes": 0,
-                    "name": "nl.ebpi.xbrl.commons.YaidomDomElem",
-                    "percent": 0.0,
-                    "seconds": 0,
-                    "text": "0 secs",
-                    "total_seconds": 0
-                },
-                {
-                    "digital": "0:00:00",
-                    "hours": 0,
-                    "minutes": 0,
-                    "name": "nl.ebpi.xbrl.instance.XbrlUnit",
-                    "percent": 0.0,
-                    "seconds": 0,
-                    "text": "0 secs",
-                    "total_seconds": 0
-                },
-                {
-                    "digital": "0:00:00",
-                    "hours": 0,
-                    "minutes": 0,
-                    "name": "nl.ebpi.xbrl.instance.XbrlIdentifier",
-                    "percent": 0.0,
-                    "seconds": 0,
-                    "text": "0 secs",
-                    "total_seconds": 0
-                },
-                {
-                    "digital": "0:00:00",
-                    "hours": 0,
-                    "minutes": 0,
-                    "name": "eu.cdevreeze.yaidom.simple.Node",
-                    "percent": 0.0,
-                    "seconds": 0,
-                    "text": "0 secs",
-                    "total_seconds": 0
-                },
-                {
-                    "digital": "0:00:00",
-                    "hours": 0,
-                    "minutes": 0,
-                    "name": "nl.ebpi.xbrl.instance.XbrlPeriod",
-                    "percent": 0.0,
-                    "seconds": 0,
-                    "text": "0 secs",
-                    "total_seconds": 0
-                },
-                {
-                    "digital": "0:00:00",
-                    "hours": 0,
-                    "minutes": 0,
-                    "name": "nl.ebpi.husky.generator.layoutmodel.LayoutModelTable",
-                    "percent": 0.0,
-                    "seconds": 0,
-                    "text": "0 secs",
-                    "total_seconds": 0
-                }
-            ],
-            "editors": [
-                {
-                    "digital": "7:57:01",
-                    "hours": 7,
-                    "minutes": 57,
-                    "name": "Vim",
-                    "percent": 90.04,
-                    "seconds": 1,
-                    "text": "7 hrs 57 mins",
-                    "total_seconds": 28621
-                },
-                {
-                    "digital": "0:48:44",
-                    "hours": 0,
-                    "minutes": 48,
-                    "name": "IntelliJ",
-                    "percent": 9.2,
-                    "seconds": 44,
-                    "text": "48 mins",
-                    "total_seconds": 2924
-                },
-                {
-                    "digital": "0:04:02",
-                    "hours": 0,
-                    "minutes": 4,
-                    "name": "VS Code",
-                    "percent": 0.76,
-                    "seconds": 2,
-                    "text": "4 mins",
-                    "total_seconds": 242
-                }
-            ],
-            "grand_total": {
-                "digital": "8:49",
-                "hours": 8,
-                "minutes": 49,
-                "text": "8 hrs 49 mins",
-                "total_seconds": 31789
-            },
-            "languages": [
-                {
-                    "digital": "6:51:05",
-                    "hours": 6,
-                    "minutes": 51,
-                    "name": "JavaScript",
-                    "percent": 77.59,
-                    "seconds": 5,
-                    "text": "6 hrs 51 mins",
-                    "total_seconds": 24665
-                },
-                {
-                    "digital": "0:53:45",
-                    "hours": 0,
-                    "minutes": 53,
-                    "name": "VimL",
-                    "percent": 10.15,
-                    "seconds": 45,
-                    "text": "53 mins",
-                    "total_seconds": 3225
-                },
-                {
-                    "digital": "0:42:11",
-                    "hours": 0,
-                    "minutes": 42,
-                    "name": "Scala",
-                    "percent": 7.96,
-                    "seconds": 11,
-                    "text": "42 mins",
-                    "total_seconds": 2531
-                },
-                {
-                    "digital": "0:07:11",
-                    "hours": 0,
-                    "minutes": 7,
-                    "name": "Bash",
-                    "percent": 1.36,
-                    "seconds": 11,
-                    "text": "7 mins",
-                    "total_seconds": 431
-                },
-                {
-                    "digital": "0:06:25",
-                    "hours": 0,
-                    "minutes": 6,
-                    "name": "Markdown",
-                    "percent": 1.21,
-                    "seconds": 25,
-                    "text": "6 mins",
-                    "total_seconds": 385
-                },
-                {
-                    "digital": "0:06:24",
-                    "hours": 0,
-                    "minutes": 6,
-                    "name": "JSON",
-                    "percent": 1.21,
-                    "seconds": 24,
-                    "text": "6 mins",
-                    "total_seconds": 384
-                },
-                {
-                    "digital": "0:02:47",
-                    "hours": 0,
-                    "minutes": 2,
-                    "name": "Text",
-                    "percent": 0.53,
-                    "seconds": 47,
-                    "text": "2 mins",
-                    "total_seconds": 167
-                }
-            ],
-            "operating_systems": [
-                {
-                    "digital": "8:49:47",
-                    "hours": 8,
-                    "minutes": 49,
-                    "name": "Linux",
-                    "percent": 100.0,
-                    "seconds": 47,
-                    "text": "8 hrs 49 mins",
-                    "total_seconds": 31787
-                }
-            ],
-            "projects": [
-                {
-                    "digital": "6:06:35",
-                    "hours": 6,
-                    "minutes": 6,
-                    "name": "tundra",
-                    "percent": 69.19,
-                    "seconds": 35,
-                    "text": "6 hrs 6 mins",
-                    "total_seconds": 21995
-                },
-                {
-                    "digital": "1:06:16",
-                    "hours": 1,
-                    "minutes": 6,
-                    "name": "Unknown Project",
-                    "percent": 12.51,
-                    "seconds": 16,
-                    "text": "1 hr 6 mins",
-                    "total_seconds": 3976
-                },
-                {
-                    "digital": "0:47:05",
-                    "hours": 0,
-                    "minutes": 47,
-                    "name": "andaga",
-                    "percent": 8.89,
-                    "seconds": 5,
-                    "text": "47 mins",
-                    "total_seconds": 2825
-                },
-                {
-                    "digital": "0:42:11",
-                    "hours": 0,
-                    "minutes": 42,
-                    "name": "husky",
-                    "percent": 7.96,
-                    "seconds": 11,
-                    "text": "42 mins",
-                    "total_seconds": 2531
-                },
-                {
-                    "digital": "0:04:55",
-                    "hours": 0,
-                    "minutes": 4,
-                    "name": "notes",
-                    "percent": 0.93,
-                    "seconds": 55,
-                    "text": "4 mins",
-                    "total_seconds": 295
-                },
-                {
-                    "digital": "0:02:47",
-                    "hours": 0,
-                    "minutes": 2,
-                    "name": "lightline.vim",
-                    "percent": 0.53,
-                    "seconds": 47,
-                    "text": "2 mins",
-                    "total_seconds": 167
-                }
-            ],
-            "range": {
-                "date": "2018-09-20",
-                "end": "2018-09-20T21:59:59Z",
-                "start": "2018-09-19T22:00:00Z",
-                "text": "Thu Sep 20th 2018",
-                "timezone": "Europe/Amsterdam"
-            }
+          "digital": "8:49:47",
+          "hours": 8,
+          "minutes": 49,
+          "name": "Coding",
+          "percent": 100,
+          "seconds": 47,
+          "text": "8 hrs 49 mins",
+          "total_seconds": 31787
         }
-    ],
-    "end": "2018-09-20T21:59:59Z",
-    "start": "2018-09-19T22:00:00Z"
+      ],
+      "dependencies": [
+        {
+          "digital": "0:42:10",
+          "hours": 0,
+          "minutes": 42,
+          "name": "nl.ebpi.common.data.ISeq",
+          "percent": 6.37,
+          "seconds": 10,
+          "text": "42 mins",
+          "total_seconds": 2530
+        },
+        {
+          "digital": "0:41:04",
+          "hours": 0,
+          "minutes": 41,
+          "name": "g.slf4j.LoggerFactory",
+          "percent": 6.21,
+          "seconds": 4,
+          "text": "41 mins",
+          "total_seconds": 2464
+        },
+        {
+          "digital": "0:40:58",
+          "hours": 0,
+          "minutes": 40,
+          "name": "nl.ebpi.husky.generator.form.model.Control",
+          "percent": 6.19,
+          "seconds": 58,
+          "text": "40 mins",
+          "total_seconds": 2458
+        },
+        {
+          "digital": "0:40:58",
+          "hours": 0,
+          "minutes": 40,
+          "name": "nl.ebpi.husky.generator.form.model.table.Cell",
+          "percent": 6.19,
+          "seconds": 58,
+          "text": "40 mins",
+          "total_seconds": 2458
+        },
+        {
+          "digital": "0:40:53",
+          "hours": 0,
+          "minutes": 40,
+          "name": "g.jgrapht.traverse.TopologicalOrderIterator",
+          "percent": 6.18,
+          "seconds": 53,
+          "text": "40 mins",
+          "total_seconds": 2453
+        },
+        {
+          "digital": "0:40:53",
+          "hours": 0,
+          "minutes": 40,
+          "name": "nl.ebpi.common.data.Relations.Implicits",
+          "percent": 6.18,
+          "seconds": 53,
+          "text": "40 mins",
+          "total_seconds": 2453
+        },
+        {
+          "digital": "0:40:53",
+          "hours": 0,
+          "minutes": 40,
+          "name": "nl.ebpi.husky.generator.FactId",
+          "percent": 6.18,
+          "seconds": 53,
+          "text": "40 mins",
+          "total_seconds": 2453
+        },
+        {
+          "digital": "0:40:53",
+          "hours": 0,
+          "minutes": 40,
+          "name": "nl.ebpi.common.data.Relations",
+          "percent": 6.18,
+          "seconds": 53,
+          "text": "40 mins",
+          "total_seconds": 2453
+        },
+        {
+          "digital": "0:40:53",
+          "hours": 0,
+          "minutes": 40,
+          "name": "g.jgrapht.graph.DirectedSubgraph",
+          "percent": 6.18,
+          "seconds": 53,
+          "text": "40 mins",
+          "total_seconds": 2453
+        },
+        {
+          "digital": "0:40:53",
+          "hours": 0,
+          "minutes": 40,
+          "name": "nl.ebpi.husky.generator.form.model.table.InputCell",
+          "percent": 6.18,
+          "seconds": 53,
+          "text": "40 mins",
+          "total_seconds": 2453
+        },
+        {
+          "digital": "0:40:53",
+          "hours": 0,
+          "minutes": 40,
+          "name": "g.jgrapht.DirectedGraph",
+          "percent": 6.18,
+          "seconds": 53,
+          "text": "40 mins",
+          "total_seconds": 2453
+        },
+        {
+          "digital": "0:40:53",
+          "hours": 0,
+          "minutes": 40,
+          "name": "g.jgrapht.graph.SimpleDirectedGraph",
+          "percent": 6.18,
+          "seconds": 53,
+          "text": "40 mins",
+          "total_seconds": 2453
+        },
+        {
+          "digital": "0:40:53",
+          "hours": 0,
+          "minutes": 40,
+          "name": "g.jgrapht.alg.StrongConnectivityInspector",
+          "percent": 6.18,
+          "seconds": 53,
+          "text": "40 mins",
+          "total_seconds": 2453
+        },
+        {
+          "digital": "0:40:53",
+          "hours": 0,
+          "minutes": 40,
+          "name": "g.jgrapht.alg.TransitiveClosure",
+          "percent": 6.18,
+          "seconds": 53,
+          "text": "40 mins",
+          "total_seconds": 2453
+        },
+        {
+          "digital": "0:40:53",
+          "hours": 0,
+          "minutes": 40,
+          "name": "g.slf4j.Logger",
+          "percent": 6.18,
+          "seconds": 53,
+          "text": "40 mins",
+          "total_seconds": 2453
+        },
+        {
+          "digital": "0:40:53",
+          "hours": 0,
+          "minutes": 40,
+          "name": "scala.collection.JavaConverters",
+          "percent": 6.18,
+          "seconds": 53,
+          "text": "40 mins",
+          "total_seconds": 2453
+        },
+        {
+          "digital": "0:01:09",
+          "hours": 0,
+          "minutes": 1,
+          "name": "java.net.URI",
+          "percent": 0.17,
+          "seconds": 9,
+          "text": "1 min",
+          "total_seconds": 69
+        },
+        {
+          "digital": "0:01:04",
+          "hours": 0,
+          "minutes": 1,
+          "name": "nl.ebpi.husky.generator.layoutmodel.LayoutModelTable.Header",
+          "percent": 0.16,
+          "seconds": 4,
+          "text": "1 min",
+          "total_seconds": 64
+        },
+        {
+          "digital": "0:00:05",
+          "hours": 0,
+          "minutes": 0,
+          "name": "nl.ebpi.inuit.formula.api.DtsContext",
+          "percent": 0.01,
+          "seconds": 5,
+          "text": "5 secs",
+          "total_seconds": 5
+        },
+        {
+          "digital": "0:00:05",
+          "hours": 0,
+          "minutes": 0,
+          "name": "nl.ebpi.tqa.model.relationship.ElementLabelRelationship",
+          "percent": 0.01,
+          "seconds": 5,
+          "text": "5 secs",
+          "total_seconds": 5
+        },
+        {
+          "digital": "0:00:05",
+          "hours": 0,
+          "minutes": 0,
+          "name": "nl.ebpi.inuit.table.api.DefaultTableLayoutGenerator",
+          "percent": 0.01,
+          "seconds": 5,
+          "text": "5 secs",
+          "total_seconds": 5
+        },
+        {
+          "digital": "0:00:05",
+          "hours": 0,
+          "minutes": 0,
+          "name": "nl.ebpi.husky.generator.Project",
+          "percent": 0.01,
+          "seconds": 5,
+          "text": "5 secs",
+          "total_seconds": 5
+        },
+        {
+          "digital": "0:00:05",
+          "hours": 0,
+          "minutes": 0,
+          "name": "nl.ebpi.husky.generator.form.model.table.FlattenSimpleTableTransformer",
+          "percent": 0.01,
+          "seconds": 5,
+          "text": "5 secs",
+          "total_seconds": 5
+        },
+        {
+          "digital": "0:00:05",
+          "hours": 0,
+          "minutes": 0,
+          "name": "nl.ebpi.inuit.table.api.DefaultStructuralModelGenerator",
+          "percent": 0.01,
+          "seconds": 5,
+          "text": "5 secs",
+          "total_seconds": 5
+        },
+        {
+          "digital": "0:00:05",
+          "hours": 0,
+          "minutes": 0,
+          "name": "nl.ebpi.tqa.model.relationship.NonStandardRelationship",
+          "percent": 0.01,
+          "seconds": 5,
+          "text": "5 secs",
+          "total_seconds": 5
+        },
+        {
+          "digital": "0:00:05",
+          "hours": 0,
+          "minutes": 0,
+          "name": "nl.ebpi.husky.generator.form.model.table.ParentLevelTransformer",
+          "percent": 0.01,
+          "seconds": 5,
+          "text": "5 secs",
+          "total_seconds": 5
+        },
+        {
+          "digital": "0:00:05",
+          "hours": 0,
+          "minutes": 0,
+          "name": "scala.util.Try",
+          "percent": 0.01,
+          "seconds": 5,
+          "text": "5 secs",
+          "total_seconds": 5
+        },
+        {
+          "digital": "0:00:05",
+          "hours": 0,
+          "minutes": 0,
+          "name": "nl.ebpi.husky.generator.form.navigation.FormNavigationTreeBuilder",
+          "percent": 0.01,
+          "seconds": 5,
+          "text": "5 secs",
+          "total_seconds": 5
+        },
+        {
+          "digital": "0:00:05",
+          "hours": 0,
+          "minutes": 0,
+          "name": "nl.ebpi.inuit.table.layoutprocess.factsourceenhancer.factory.FactSourceEnhancers",
+          "percent": 0.01,
+          "seconds": 5,
+          "text": "5 secs",
+          "total_seconds": 5
+        },
+        {
+          "digital": "0:00:05",
+          "hours": 0,
+          "minutes": 0,
+          "name": "nl.ebpi.husky.generator.form.model.table.SimpleTableTransformer",
+          "percent": 0.01,
+          "seconds": 5,
+          "text": "5 secs",
+          "total_seconds": 5
+        },
+        {
+          "digital": "0:00:05",
+          "hours": 0,
+          "minutes": 0,
+          "name": "scala.annotation.tailrec",
+          "percent": 0.01,
+          "seconds": 5,
+          "text": "5 secs",
+          "total_seconds": 5
+        },
+        {
+          "digital": "0:00:05",
+          "hours": 0,
+          "minutes": 0,
+          "name": "nl.ebpi.husky.generator",
+          "percent": 0.01,
+          "seconds": 5,
+          "text": "5 secs",
+          "total_seconds": 5
+        },
+        {
+          "digital": "0:00:05",
+          "hours": 0,
+          "minutes": 0,
+          "name": "nl.ebpi.husky.generator.ontology.relationship",
+          "percent": 0.01,
+          "seconds": 5,
+          "text": "5 secs",
+          "total_seconds": 5
+        },
+        {
+          "digital": "0:00:05",
+          "hours": 0,
+          "minutes": 0,
+          "name": "nl.ebpi.husky.generator.form.model.Form",
+          "percent": 0.01,
+          "seconds": 5,
+          "text": "5 secs",
+          "total_seconds": 5
+        },
+        {
+          "digital": "0:00:05",
+          "hours": 0,
+          "minutes": 0,
+          "name": "nl.ebpi.husky.generator.form.model.table.TableTransformer",
+          "percent": 0.01,
+          "seconds": 5,
+          "text": "5 secs",
+          "total_seconds": 5
+        },
+        {
+          "digital": "0:00:05",
+          "hours": 0,
+          "minutes": 0,
+          "name": "nl.ebpi.husky.generator.form.model.NopControl",
+          "percent": 0.01,
+          "seconds": 5,
+          "text": "5 secs",
+          "total_seconds": 5
+        },
+        {
+          "digital": "0:00:05",
+          "hours": 0,
+          "minutes": 0,
+          "name": "nl.ebpi.tqa.taxonomies.TaxonomyDocFactory",
+          "percent": 0.01,
+          "seconds": 5,
+          "text": "5 secs",
+          "total_seconds": 5
+        },
+        {
+          "digital": "0:00:05",
+          "hours": 0,
+          "minutes": 0,
+          "name": "nl.ebpi.husky.generator.form.model.table.TypedDimensionTableTransformer",
+          "percent": 0.01,
+          "seconds": 5,
+          "text": "5 secs",
+          "total_seconds": 5
+        },
+        {
+          "digital": "0:00:05",
+          "hours": 0,
+          "minutes": 0,
+          "name": "nl.ebpi.tqa.printing.DocumentPrinterUtils",
+          "percent": 0.01,
+          "seconds": 5,
+          "text": "5 secs",
+          "total_seconds": 5
+        },
+        {
+          "digital": "0:00:05",
+          "hours": 0,
+          "minutes": 0,
+          "name": "nl.ebpi.husky.generator.form.model.Text",
+          "percent": 0.01,
+          "seconds": 5,
+          "text": "5 secs",
+          "total_seconds": 5
+        },
+        {
+          "digital": "0:00:05",
+          "hours": 0,
+          "minutes": 0,
+          "name": "eu.cdevreeze.yaidom.simple.Elem",
+          "percent": 0.01,
+          "seconds": 5,
+          "text": "5 secs",
+          "total_seconds": 5
+        },
+        {
+          "digital": "0:00:05",
+          "hours": 0,
+          "minutes": 0,
+          "name": "nl.ebpi.husky.generator.layoutmodel.LayoutModelBuilder",
+          "percent": 0.01,
+          "seconds": 5,
+          "text": "5 secs",
+          "total_seconds": 5
+        },
+        {
+          "digital": "0:00:05",
+          "hours": 0,
+          "minutes": 0,
+          "name": "nl.ebpi.husky.generator.form.model.ConceptLabelTranslation",
+          "percent": 0.01,
+          "seconds": 5,
+          "text": "5 secs",
+          "total_seconds": 5
+        },
+        {
+          "digital": "0:00:05",
+          "hours": 0,
+          "minutes": 0,
+          "name": "scala.collection.immutable",
+          "percent": 0.01,
+          "seconds": 5,
+          "text": "5 secs",
+          "total_seconds": 5
+        },
+        {
+          "digital": "0:00:05",
+          "hours": 0,
+          "minutes": 0,
+          "name": "eu.cdevreeze.yaidom.core.EName",
+          "percent": 0.01,
+          "seconds": 5,
+          "text": "5 secs",
+          "total_seconds": 5
+        },
+        {
+          "digital": "0:00:05",
+          "hours": 0,
+          "minutes": 0,
+          "name": "nl.ebpi.husky.generator.Versions",
+          "percent": 0.01,
+          "seconds": 5,
+          "text": "5 secs",
+          "total_seconds": 5
+        },
+        {
+          "digital": "0:00:05",
+          "hours": 0,
+          "minutes": 0,
+          "name": "nl.ebpi.tqa.relationshipaware.RelationshipAwareTaxonomy",
+          "percent": 0.01,
+          "seconds": 5,
+          "text": "5 secs",
+          "total_seconds": 5
+        },
+        {
+          "digital": "0:00:05",
+          "hours": 0,
+          "minutes": 0,
+          "name": "nl.ebpi.husky.generator.form.model.TranslationKey",
+          "percent": 0.01,
+          "seconds": 5,
+          "text": "5 secs",
+          "total_seconds": 5
+        },
+        {
+          "digital": "0:00:05",
+          "hours": 0,
+          "minutes": 0,
+          "name": "nl.ebpi.tqa.XmlFragmentKey",
+          "percent": 0.01,
+          "seconds": 5,
+          "text": "5 secs",
+          "total_seconds": 5
+        },
+        {
+          "digital": "0:00:05",
+          "hours": 0,
+          "minutes": 0,
+          "name": "nl.ebpi.husky.generator.ontology.pagination",
+          "percent": 0.01,
+          "seconds": 5,
+          "text": "5 secs",
+          "total_seconds": 5
+        },
+        {
+          "digital": "0:00:05",
+          "hours": 0,
+          "minutes": 0,
+          "name": "nl.ebpi.tqa.model.taxonomydom.GlobalElementDeclaration",
+          "percent": 0.01,
+          "seconds": 5,
+          "text": "5 secs",
+          "total_seconds": 5
+        },
+        {
+          "digital": "0:00:05",
+          "hours": 0,
+          "minutes": 0,
+          "name": "nl.ebpi.husky.generator.form.model.Page",
+          "percent": 0.01,
+          "seconds": 5,
+          "text": "5 secs",
+          "total_seconds": 5
+        },
+        {
+          "digital": "0:00:05",
+          "hours": 0,
+          "minutes": 0,
+          "name": "nl.ebpi.husky.generator.form.model.PageSection",
+          "percent": 0.01,
+          "seconds": 5,
+          "text": "5 secs",
+          "total_seconds": 5
+        },
+        {
+          "digital": "0:00:05",
+          "hours": 0,
+          "minutes": 0,
+          "name": "nl.ebpi.tqa.model.taxonomydom.tabledom.Table",
+          "percent": 0.01,
+          "seconds": 5,
+          "text": "5 secs",
+          "total_seconds": 5
+        },
+        {
+          "digital": "0:00:05",
+          "hours": 0,
+          "minutes": 0,
+          "name": "nl.ebpi.xbrl.commons",
+          "percent": 0.01,
+          "seconds": 5,
+          "text": "5 secs",
+          "total_seconds": 5
+        },
+        {
+          "digital": "0:00:05",
+          "hours": 0,
+          "minutes": 0,
+          "name": "nl.ebpi.husky.generator.ontology",
+          "percent": 0.01,
+          "seconds": 5,
+          "text": "5 secs",
+          "total_seconds": 5
+        },
+        {
+          "digital": "0:00:05",
+          "hours": 0,
+          "minutes": 0,
+          "name": "nl.ebpi.husky.generator.ontology.pagination.NavigationNode",
+          "percent": 0.01,
+          "seconds": 5,
+          "text": "5 secs",
+          "total_seconds": 5
+        },
+        {
+          "digital": "0:00:05",
+          "hours": 0,
+          "minutes": 0,
+          "name": "nl.ebpi.husky.generator.form.model.EntrypointData",
+          "percent": 0.01,
+          "seconds": 5,
+          "text": "5 secs",
+          "total_seconds": 5
+        },
+        {
+          "digital": "0:00:05",
+          "hours": 0,
+          "minutes": 0,
+          "name": "scala.reflect.ClassTag",
+          "percent": 0.01,
+          "seconds": 5,
+          "text": "5 secs",
+          "total_seconds": 5
+        },
+        {
+          "digital": "0:00:05",
+          "hours": 0,
+          "minutes": 0,
+          "name": "nl.ebpi.tqa.model.taxonomydom.tabledom",
+          "percent": 0.01,
+          "seconds": 5,
+          "text": "5 secs",
+          "total_seconds": 5
+        },
+        {
+          "digital": "0:00:01",
+          "hours": 0,
+          "minutes": 0,
+          "name": "com.github.ghik.silencer.silent",
+          "percent": 0,
+          "seconds": 1,
+          "text": "1 sec",
+          "total_seconds": 1
+        },
+        {
+          "digital": "0:00:01",
+          "hours": 0,
+          "minutes": 0,
+          "name": "eu.cdevreeze.yaidom.core.QName",
+          "percent": 0,
+          "seconds": 1,
+          "text": "1 sec",
+          "total_seconds": 1
+        },
+        {
+          "digital": "0:00:00",
+          "hours": 0,
+          "minutes": 0,
+          "name": "nl.ebpi.xbrl.instance.XbrliObjectFactory",
+          "percent": 0,
+          "seconds": 0,
+          "text": "0 secs",
+          "total_seconds": 0
+        },
+        {
+          "digital": "0:00:00",
+          "hours": 0,
+          "minutes": 0,
+          "name": "nl.ebpi.xbrl.instance.build.XbrliPeriodQName",
+          "percent": 0,
+          "seconds": 0,
+          "text": "0 secs",
+          "total_seconds": 0
+        },
+        {
+          "digital": "0:00:00",
+          "hours": 0,
+          "minutes": 0,
+          "name": "nl.ebpi.xbrl.commons.YaidomDomElem",
+          "percent": 0,
+          "seconds": 0,
+          "text": "0 secs",
+          "total_seconds": 0
+        },
+        {
+          "digital": "0:00:00",
+          "hours": 0,
+          "minutes": 0,
+          "name": "nl.ebpi.xbrl.instance.XbrlUnit",
+          "percent": 0,
+          "seconds": 0,
+          "text": "0 secs",
+          "total_seconds": 0
+        },
+        {
+          "digital": "0:00:00",
+          "hours": 0,
+          "minutes": 0,
+          "name": "nl.ebpi.xbrl.instance.XbrlIdentifier",
+          "percent": 0,
+          "seconds": 0,
+          "text": "0 secs",
+          "total_seconds": 0
+        },
+        {
+          "digital": "0:00:00",
+          "hours": 0,
+          "minutes": 0,
+          "name": "eu.cdevreeze.yaidom.simple.Node",
+          "percent": 0,
+          "seconds": 0,
+          "text": "0 secs",
+          "total_seconds": 0
+        },
+        {
+          "digital": "0:00:00",
+          "hours": 0,
+          "minutes": 0,
+          "name": "nl.ebpi.xbrl.instance.XbrlPeriod",
+          "percent": 0,
+          "seconds": 0,
+          "text": "0 secs",
+          "total_seconds": 0
+        },
+        {
+          "digital": "0:00:00",
+          "hours": 0,
+          "minutes": 0,
+          "name": "nl.ebpi.husky.generator.layoutmodel.LayoutModelTable",
+          "percent": 0,
+          "seconds": 0,
+          "text": "0 secs",
+          "total_seconds": 0
+        }
+      ],
+      "editors": [
+        {
+          "digital": "7:57:01",
+          "hours": 7,
+          "minutes": 57,
+          "name": "Vim",
+          "percent": 90.04,
+          "seconds": 1,
+          "text": "7 hrs 57 mins",
+          "total_seconds": 28621
+        },
+        {
+          "digital": "0:48:44",
+          "hours": 0,
+          "minutes": 48,
+          "name": "IntelliJ",
+          "percent": 9.2,
+          "seconds": 44,
+          "text": "48 mins",
+          "total_seconds": 2924
+        },
+        {
+          "digital": "0:04:02",
+          "hours": 0,
+          "minutes": 4,
+          "name": "VS Code",
+          "percent": 0.76,
+          "seconds": 2,
+          "text": "4 mins",
+          "total_seconds": 242
+        }
+      ],
+      "grand_total": {
+        "digital": "8:49",
+        "hours": 8,
+        "minutes": 49,
+        "text": "8 hrs 49 mins",
+        "total_seconds": 31789
+      },
+      "languages": [
+        {
+          "digital": "6:51:05",
+          "hours": 6,
+          "minutes": 51,
+          "name": "JavaScript",
+          "percent": 77.59,
+          "seconds": 5,
+          "text": "6 hrs 51 mins",
+          "total_seconds": 24665
+        },
+        {
+          "digital": "0:53:45",
+          "hours": 0,
+          "minutes": 53,
+          "name": "VimL",
+          "percent": 10.15,
+          "seconds": 45,
+          "text": "53 mins",
+          "total_seconds": 3225
+        },
+        {
+          "digital": "0:42:11",
+          "hours": 0,
+          "minutes": 42,
+          "name": "Scala",
+          "percent": 7.96,
+          "seconds": 11,
+          "text": "42 mins",
+          "total_seconds": 2531
+        },
+        {
+          "digital": "0:07:11",
+          "hours": 0,
+          "minutes": 7,
+          "name": "Bash",
+          "percent": 1.36,
+          "seconds": 11,
+          "text": "7 mins",
+          "total_seconds": 431
+        },
+        {
+          "digital": "0:06:25",
+          "hours": 0,
+          "minutes": 6,
+          "name": "Markdown",
+          "percent": 1.21,
+          "seconds": 25,
+          "text": "6 mins",
+          "total_seconds": 385
+        },
+        {
+          "digital": "0:06:24",
+          "hours": 0,
+          "minutes": 6,
+          "name": "JSON",
+          "percent": 1.21,
+          "seconds": 24,
+          "text": "6 mins",
+          "total_seconds": 384
+        },
+        {
+          "digital": "0:02:47",
+          "hours": 0,
+          "minutes": 2,
+          "name": "Text",
+          "percent": 0.53,
+          "seconds": 47,
+          "text": "2 mins",
+          "total_seconds": 167
+        }
+      ],
+      "operating_systems": [
+        {
+          "digital": "8:49:47",
+          "hours": 8,
+          "minutes": 49,
+          "name": "Linux",
+          "percent": 100,
+          "seconds": 47,
+          "text": "8 hrs 49 mins",
+          "total_seconds": 31787
+        }
+      ],
+      "projects": [
+        {
+          "digital": "6:06:35",
+          "hours": 6,
+          "minutes": 6,
+          "name": "tundra",
+          "percent": 69.19,
+          "seconds": 35,
+          "text": "6 hrs 6 mins",
+          "total_seconds": 21995
+        },
+        {
+          "digital": "1:06:16",
+          "hours": 1,
+          "minutes": 6,
+          "name": "Unknown Project",
+          "percent": 12.51,
+          "seconds": 16,
+          "text": "1 hr 6 mins",
+          "total_seconds": 3976
+        },
+        {
+          "digital": "0:47:05",
+          "hours": 0,
+          "minutes": 47,
+          "name": "andaga",
+          "percent": 8.89,
+          "seconds": 5,
+          "text": "47 mins",
+          "total_seconds": 2825
+        },
+        {
+          "digital": "0:42:11",
+          "hours": 0,
+          "minutes": 42,
+          "name": "husky",
+          "percent": 7.96,
+          "seconds": 11,
+          "text": "42 mins",
+          "total_seconds": 2531
+        },
+        {
+          "digital": "0:04:55",
+          "hours": 0,
+          "minutes": 4,
+          "name": "notes",
+          "percent": 0.93,
+          "seconds": 55,
+          "text": "4 mins",
+          "total_seconds": 295
+        },
+        {
+          "digital": "0:02:47",
+          "hours": 0,
+          "minutes": 2,
+          "name": "lightline.vim",
+          "percent": 0.53,
+          "seconds": 47,
+          "text": "2 mins",
+          "total_seconds": 167
+        }
+      ],
+      "range": {
+        "date": "2018-09-20",
+        "end": "2018-09-20T21:59:59Z",
+        "start": "2018-09-19T22:00:00Z",
+        "text": "Thu Sep 20th 2018",
+        "timezone": "Europe/Amsterdam"
+      }
+    }
+  ],
+  "end": "2018-09-20T21:59:59Z",
+  "start": "2018-09-19T22:00:00Z"
 }

@@ -1,174 +1,174 @@
 {
-    "data": [
+  "data": [
+    {
+      "categories": [
         {
-            "categories": [
-                {
-                    "digital": "7:04:26",
-                    "hours": 7,
-                    "minutes": 4,
-                    "name": "Coding",
-                    "percent": 100.0,
-                    "seconds": 26,
-                    "text": "7 hrs 4 mins",
-                    "total_seconds": 25466
-                }
-            ],
-            "dependencies": [
-                {
-                    "digital": "0:00:19",
-                    "hours": 0,
-                    "minutes": 0,
-                    "name": "react",
-                    "percent": 33.33,
-                    "seconds": 19,
-                    "text": "19 secs",
-                    "total_seconds": 19
-                },
-                {
-                    "digital": "0:00:19",
-                    "hours": 0,
-                    "minutes": 0,
-                    "name": "react-dom",
-                    "percent": 33.33,
-                    "seconds": 19,
-                    "text": "19 secs",
-                    "total_seconds": 19
-                },
-                {
-                    "digital": "0:00:19",
-                    "hours": 0,
-                    "minutes": 0,
-                    "name": "index",
-                    "percent": 33.33,
-                    "seconds": 19,
-                    "text": "19 secs",
-                    "total_seconds": 19
-                }
-            ],
-            "editors": [
-                {
-                    "digital": "7:04:26",
-                    "hours": 7,
-                    "minutes": 4,
-                    "name": "Vim",
-                    "percent": 100.0,
-                    "seconds": 26,
-                    "text": "7 hrs 4 mins",
-                    "total_seconds": 25466
-                }
-            ],
-            "grand_total": {
-                "digital": "7:04",
-                "hours": 7,
-                "minutes": 4,
-                "text": "7 hrs 4 mins",
-                "total_seconds": 25465
-            },
-            "languages": [
-                {
-                    "digital": "6:59:24",
-                    "hours": 6,
-                    "minutes": 59,
-                    "name": "JavaScript",
-                    "percent": 98.82,
-                    "seconds": 24,
-                    "text": "6 hrs 59 mins",
-                    "total_seconds": 25164
-                },
-                {
-                    "digital": "0:02:47",
-                    "hours": 0,
-                    "minutes": 2,
-                    "name": "Markdown",
-                    "percent": 0.66,
-                    "seconds": 47,
-                    "text": "2 mins",
-                    "total_seconds": 167
-                },
-                {
-                    "digital": "0:01:56",
-                    "hours": 0,
-                    "minutes": 1,
-                    "name": "JSON",
-                    "percent": 0.46,
-                    "seconds": 56,
-                    "text": "1 min",
-                    "total_seconds": 116
-                },
-                {
-                    "digital": "0:00:10",
-                    "hours": 0,
-                    "minutes": 0,
-                    "name": "VimL",
-                    "percent": 0.04,
-                    "seconds": 10,
-                    "text": "10 secs",
-                    "total_seconds": 10
-                },
-                {
-                    "digital": "0:00:08",
-                    "hours": 0,
-                    "minutes": 0,
-                    "name": "LESS",
-                    "percent": 0.03,
-                    "seconds": 8,
-                    "text": "8 secs",
-                    "total_seconds": 8
-                }
-            ],
-            "operating_systems": [
-                {
-                    "digital": "7:04:26",
-                    "hours": 7,
-                    "minutes": 4,
-                    "name": "Linux",
-                    "percent": 100.0,
-                    "seconds": 26,
-                    "text": "7 hrs 4 mins",
-                    "total_seconds": 25466
-                }
-            ],
-            "projects": [
-                {
-                    "digital": "7:00:37",
-                    "hours": 7,
-                    "minutes": 0,
-                    "name": "tundra",
-                    "percent": 99.1,
-                    "seconds": 37,
-                    "text": "7 hrs",
-                    "total_seconds": 25237
-                },
-                {
-                    "digital": "0:02:47",
-                    "hours": 0,
-                    "minutes": 2,
-                    "name": "notes",
-                    "percent": 0.66,
-                    "seconds": 47,
-                    "text": "2 mins",
-                    "total_seconds": 167
-                },
-                {
-                    "digital": "0:01:01",
-                    "hours": 0,
-                    "minutes": 1,
-                    "name": "Unknown Project",
-                    "percent": 0.24,
-                    "seconds": 1,
-                    "text": "1 min",
-                    "total_seconds": 61
-                }
-            ],
-            "range": {
-                "date": "2018-09-19",
-                "end": "2018-09-19T21:59:59Z",
-                "start": "2018-09-18T22:00:00Z",
-                "text": "Wed Sep 19th 2018",
-                "timezone": "Europe/Amsterdam"
-            }
+          "digital": "7:04:26",
+          "hours": 7,
+          "minutes": 4,
+          "name": "Coding",
+          "percent": 100,
+          "seconds": 26,
+          "text": "7 hrs 4 mins",
+          "total_seconds": 25466
         }
-    ],
-    "end": "2018-09-19T21:59:59Z",
-    "start": "2018-09-18T22:00:00Z"
+      ],
+      "dependencies": [
+        {
+          "digital": "0:00:19",
+          "hours": 0,
+          "minutes": 0,
+          "name": "react",
+          "percent": 33.33,
+          "seconds": 19,
+          "text": "19 secs",
+          "total_seconds": 19
+        },
+        {
+          "digital": "0:00:19",
+          "hours": 0,
+          "minutes": 0,
+          "name": "react-dom",
+          "percent": 33.33,
+          "seconds": 19,
+          "text": "19 secs",
+          "total_seconds": 19
+        },
+        {
+          "digital": "0:00:19",
+          "hours": 0,
+          "minutes": 0,
+          "name": "index",
+          "percent": 33.33,
+          "seconds": 19,
+          "text": "19 secs",
+          "total_seconds": 19
+        }
+      ],
+      "editors": [
+        {
+          "digital": "7:04:26",
+          "hours": 7,
+          "minutes": 4,
+          "name": "Vim",
+          "percent": 100,
+          "seconds": 26,
+          "text": "7 hrs 4 mins",
+          "total_seconds": 25466
+        }
+      ],
+      "grand_total": {
+        "digital": "7:04",
+        "hours": 7,
+        "minutes": 4,
+        "text": "7 hrs 4 mins",
+        "total_seconds": 25465
+      },
+      "languages": [
+        {
+          "digital": "6:59:24",
+          "hours": 6,
+          "minutes": 59,
+          "name": "JavaScript",
+          "percent": 98.82,
+          "seconds": 24,
+          "text": "6 hrs 59 mins",
+          "total_seconds": 25164
+        },
+        {
+          "digital": "0:02:47",
+          "hours": 0,
+          "minutes": 2,
+          "name": "Markdown",
+          "percent": 0.66,
+          "seconds": 47,
+          "text": "2 mins",
+          "total_seconds": 167
+        },
+        {
+          "digital": "0:01:56",
+          "hours": 0,
+          "minutes": 1,
+          "name": "JSON",
+          "percent": 0.46,
+          "seconds": 56,
+          "text": "1 min",
+          "total_seconds": 116
+        },
+        {
+          "digital": "0:00:10",
+          "hours": 0,
+          "minutes": 0,
+          "name": "VimL",
+          "percent": 0.04,
+          "seconds": 10,
+          "text": "10 secs",
+          "total_seconds": 10
+        },
+        {
+          "digital": "0:00:08",
+          "hours": 0,
+          "minutes": 0,
+          "name": "LESS",
+          "percent": 0.03,
+          "seconds": 8,
+          "text": "8 secs",
+          "total_seconds": 8
+        }
+      ],
+      "operating_systems": [
+        {
+          "digital": "7:04:26",
+          "hours": 7,
+          "minutes": 4,
+          "name": "Linux",
+          "percent": 100,
+          "seconds": 26,
+          "text": "7 hrs 4 mins",
+          "total_seconds": 25466
+        }
+      ],
+      "projects": [
+        {
+          "digital": "7:00:37",
+          "hours": 7,
+          "minutes": 0,
+          "name": "tundra",
+          "percent": 99.1,
+          "seconds": 37,
+          "text": "7 hrs",
+          "total_seconds": 25237
+        },
+        {
+          "digital": "0:02:47",
+          "hours": 0,
+          "minutes": 2,
+          "name": "notes",
+          "percent": 0.66,
+          "seconds": 47,
+          "text": "2 mins",
+          "total_seconds": 167
+        },
+        {
+          "digital": "0:01:01",
+          "hours": 0,
+          "minutes": 1,
+          "name": "Unknown Project",
+          "percent": 0.24,
+          "seconds": 1,
+          "text": "1 min",
+          "total_seconds": 61
+        }
+      ],
+      "range": {
+        "date": "2018-09-19",
+        "end": "2018-09-19T21:59:59Z",
+        "start": "2018-09-18T22:00:00Z",
+        "text": "Wed Sep 19th 2018",
+        "timezone": "Europe/Amsterdam"
+      }
+    }
+  ],
+  "end": "2018-09-19T21:59:59Z",
+  "start": "2018-09-18T22:00:00Z"
 }

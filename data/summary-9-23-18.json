@@ -1,1 +1,214 @@
-{"data":[{"categories":[{"digital":"1:25:22","hours":1,"minutes":25,"name":"Coding","percent":100.00,"seconds":22,"text":"1 hr 25 mins","total_seconds":5122}],"dependencies":[{"digital":"0:03:58","hours":0,"minutes":3,"name":"editors","percent":16.67,"seconds":58,"text":"3 mins","total_seconds":238},{"digital":"0:03:58","hours":0,"minutes":3,"name":"operating_systems","percent":16.67,"seconds":58,"text":"3 mins","total_seconds":238},{"digital":"0:03:58","hours":0,"minutes":3,"name":"projects","percent":16.67,"seconds":58,"text":"3 mins","total_seconds":238},{"digital":"0:03:58","hours":0,"minutes":3,"name":"languages","percent":16.67,"seconds":58,"text":"3 mins","total_seconds":238},{"digital":"0:03:58","hours":0,"minutes":3,"name":"range","percent":16.67,"seconds":58,"text":"3 mins","total_seconds":238},{"digital":"0:03:58","hours":0,"minutes":3,"name":"grand_total","percent":16.67,"seconds":58,"text":"3 mins","total_seconds":238}],"editors":[{"digital":"1:23:15","hours":1,"minutes":23,"name":"Vim","percent":97.52,"seconds":15,"text":"1 hr 23 mins","total_seconds":4995},{"digital":"0:02:07","hours":0,"minutes":2,"name":"VS Code","percent":2.48,"seconds":7,"text":"2 mins","total_seconds":127}],"grand_total":{"digital":"1:25","hours":1,"minutes":25,"text":"1 hr 25 mins","total_seconds":5121},"languages":[{"digital":"0:45:54","hours":0,"minutes":45,"name":"JavaScript","percent":53.77,"seconds":54,"text":"45 mins","total_seconds":2754},{"digital":"0:34:24","hours":0,"minutes":34,"name":"Markdown","percent":40.30,"seconds":24,"text":"34 mins","total_seconds":2064},{"digital":"0:03:58","hours":0,"minutes":3,"name":"JSON","percent":4.65,"seconds":58,"text":"3 mins","total_seconds":238},{"digital":"0:01:04","hours":0,"minutes":1,"name":"Other","percent":1.25,"seconds":4,"text":"1 min","total_seconds":64},{"digital":"0:00:02","hours":0,"minutes":0,"name":"Text","percent":0.04,"seconds":2,"text":"2 secs","total_seconds":2}],"operating_systems":[{"digital":"1:25:22","hours":1,"minutes":25,"name":"Linux","percent":100.00,"seconds":22,"text":"1 hr 25 mins","total_seconds":5122}],"projects":[{"digital":"0:50:55","hours":0,"minutes":50,"name":"waka-machine","percent":59.66,"seconds":55,"text":"50 mins","total_seconds":3055},{"digital":"0:34:24","hours":0,"minutes":34,"name":"notes","percent":40.30,"seconds":24,"text":"34 mins","total_seconds":2064},{"digital":"0:00:02","hours":0,"minutes":0,"name":"Unknown Project","percent":0.04,"seconds":2,"text":"2 secs","total_seconds":2}],"range":{"date":"2018-09-23","end":"2018-09-23T21:59:59Z","start":"2018-09-22T22:00:00Z","text":"Sun Sep 23rd 2018","timezone":"Europe/Amsterdam"}}],"end":"2018-09-23T21:59:59Z","start":"2018-09-22T22:00:00Z"}
+{
+  "data": [
+    {
+      "categories": [
+        {
+          "digital": "1:25:22",
+          "hours": 1,
+          "minutes": 25,
+          "name": "Coding",
+          "percent": 100,
+          "seconds": 22,
+          "text": "1 hr 25 mins",
+          "total_seconds": 5122
+        }
+      ],
+      "dependencies": [
+        {
+          "digital": "0:03:58",
+          "hours": 0,
+          "minutes": 3,
+          "name": "editors",
+          "percent": 16.67,
+          "seconds": 58,
+          "text": "3 mins",
+          "total_seconds": 238
+        },
+        {
+          "digital": "0:03:58",
+          "hours": 0,
+          "minutes": 3,
+          "name": "operating_systems",
+          "percent": 16.67,
+          "seconds": 58,
+          "text": "3 mins",
+          "total_seconds": 238
+        },
+        {
+          "digital": "0:03:58",
+          "hours": 0,
+          "minutes": 3,
+          "name": "projects",
+          "percent": 16.67,
+          "seconds": 58,
+          "text": "3 mins",
+          "total_seconds": 238
+        },
+        {
+          "digital": "0:03:58",
+          "hours": 0,
+          "minutes": 3,
+          "name": "languages",
+          "percent": 16.67,
+          "seconds": 58,
+          "text": "3 mins",
+          "total_seconds": 238
+        },
+        {
+          "digital": "0:03:58",
+          "hours": 0,
+          "minutes": 3,
+          "name": "range",
+          "percent": 16.67,
+          "seconds": 58,
+          "text": "3 mins",
+          "total_seconds": 238
+        },
+        {
+          "digital": "0:03:58",
+          "hours": 0,
+          "minutes": 3,
+          "name": "grand_total",
+          "percent": 16.67,
+          "seconds": 58,
+          "text": "3 mins",
+          "total_seconds": 238
+        }
+      ],
+      "editors": [
+        {
+          "digital": "1:23:15",
+          "hours": 1,
+          "minutes": 23,
+          "name": "Vim",
+          "percent": 97.52,
+          "seconds": 15,
+          "text": "1 hr 23 mins",
+          "total_seconds": 4995
+        },
+        {
+          "digital": "0:02:07",
+          "hours": 0,
+          "minutes": 2,
+          "name": "VS Code",
+          "percent": 2.48,
+          "seconds": 7,
+          "text": "2 mins",
+          "total_seconds": 127
+        }
+      ],
+      "grand_total": {
+        "digital": "1:25",
+        "hours": 1,
+        "minutes": 25,
+        "text": "1 hr 25 mins",
+        "total_seconds": 5121
+      },
+      "languages": [
+        {
+          "digital": "0:45:54",
+          "hours": 0,
+          "minutes": 45,
+          "name": "JavaScript",
+          "percent": 53.77,
+          "seconds": 54,
+          "text": "45 mins",
+          "total_seconds": 2754
+        },
+        {
+          "digital": "0:34:24",
+          "hours": 0,
+          "minutes": 34,
+          "name": "Markdown",
+          "percent": 40.3,
+          "seconds": 24,
+          "text": "34 mins",
+          "total_seconds": 2064
+        },
+        {
+          "digital": "0:03:58",
+          "hours": 0,
+          "minutes": 3,
+          "name": "JSON",
+          "percent": 4.65,
+          "seconds": 58,
+          "text": "3 mins",
+          "total_seconds": 238
+        },
+        {
+          "digital": "0:01:04",
+          "hours": 0,
+          "minutes": 1,
+          "name": "Other",
+          "percent": 1.25,
+          "seconds": 4,
+          "text": "1 min",
+          "total_seconds": 64
+        },
+        {
+          "digital": "0:00:02",
+          "hours": 0,
+          "minutes": 0,
+          "name": "Text",
+          "percent": 0.04,
+          "seconds": 2,
+          "text": "2 secs",
+          "total_seconds": 2
+        }
+      ],
+      "operating_systems": [
+        {
+          "digital": "1:25:22",
+          "hours": 1,
+          "minutes": 25,
+          "name": "Linux",
+          "percent": 100,
+          "seconds": 22,
+          "text": "1 hr 25 mins",
+          "total_seconds": 5122
+        }
+      ],
+      "projects": [
+        {
+          "digital": "0:50:55",
+          "hours": 0,
+          "minutes": 50,
+          "name": "waka-machine",
+          "percent": 59.66,
+          "seconds": 55,
+          "text": "50 mins",
+          "total_seconds": 3055
+        },
+        {
+          "digital": "0:34:24",
+          "hours": 0,
+          "minutes": 34,
+          "name": "notes",
+          "percent": 40.3,
+          "seconds": 24,
+          "text": "34 mins",
+          "total_seconds": 2064
+        },
+        {
+          "digital": "0:00:02",
+          "hours": 0,
+          "minutes": 0,
+          "name": "Unknown Project",
+          "percent": 0.04,
+          "seconds": 2,
+          "text": "2 secs",
+          "total_seconds": 2
+        }
+      ],
+      "range": {
+        "date": "2018-09-23",
+        "end": "2018-09-23T21:59:59Z",
+        "start": "2018-09-22T22:00:00Z",
+        "text": "Sun Sep 23rd 2018",
+        "timezone": "Europe/Amsterdam"
+      }
+    }
+  ],
+  "end": "2018-09-23T21:59:59Z",
+  "start": "2018-09-22T22:00:00Z"
+}
