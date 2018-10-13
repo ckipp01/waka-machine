@@ -6,7 +6,7 @@ let trainedNet
 brainUtils.train = (trainingData) => {
   let net = new brain.NeuralNetwork()
   net.train(trainingData)
-  trainedNet = net.toFunction()
+  trainedNet = net
 }
 
 const formatedUserInput = (input) => {
@@ -21,7 +21,7 @@ const formatedUserInput = (input) => {
 
 brainUtils.execute = (input) => {
   return new Promise((resolve, reject) => {
-    let results = trainedNet(formatedUserInput(input))
+    let results = trainedNet.run(formatedUserInput(input))
     resolve(results)
   })
 }
