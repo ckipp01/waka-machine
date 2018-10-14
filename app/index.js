@@ -2,7 +2,7 @@
 const brainUtils = require('./utils/brain-utils')
 const trainingUtils = require('./utils/training-utils')
 const path = require('path')
-const myDir = path.join(__dirname, '/data/')
+const myDir = path.join(__dirname, '../data/')
 
 trainingUtils.gatherJSON(myDir)
   .then(json => {
@@ -15,7 +15,7 @@ trainingUtils.gatherJSON(myDir)
     throw err
   })
 
-console.log('Gimme some of that juicy input\n')
+console.log('Please provide a day of the week\n')
 
 process.stdin.on('readable', () => {
   const chunk = process.stdin.read()

@@ -13,9 +13,6 @@ const formatedUserInput = (input) => {
   let userInputObject = {}
   const day = input.slice(0, input.length - 1)
   userInputObject[day] = 1
-  userInputObject['Linux'] = 1
-  userInputObject['JavaScript'] = 0.8
-  console.log(userInputObject)
   return userInputObject
 }
 
