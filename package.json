@@ -4,7 +4,7 @@
   "description": "Machine larning project to determine what language I'll be working in on a given day",
   "main": "./app/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha --recursive",
     "waka" : "node ./app/index.js",
     "lint" : "eslint ./app --ext .js"
   },

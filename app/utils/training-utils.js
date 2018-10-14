@@ -97,7 +97,7 @@ trainingUtils.formatInput = (input) => {
             ...formatedInput[1],
             ...formatedInput[2]
           }
-          outputObject[record.data[0].languages[0].name + 'Day'] = 1
+          outputObject[record.data[0].languages[0].name + ' Day'] = 1
           formatedData.push({ input: inputObject, output: outputObject })
           resolve(formatedData)
         }, err => {
