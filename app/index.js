@@ -2,7 +2,7 @@
 const brainUtils = require('./utils/brain-utils')
 const trainingUtils = require('./utils/training-utils')
 const path = require('path')
-const myDir = path.join(__dirname, '../data/')
+const myDir = path.join(__dirname, '../test/resources/')
 
 trainingUtils.gatherJSON(myDir)
   .then(json => {

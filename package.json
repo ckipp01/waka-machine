@@ -5,8 +5,8 @@
   "main": "./app/index.js",
   "scripts": {
     "test": "mocha --recursive",
-    "waka" : "node ./app/index.js",
-    "lint" : "eslint ./app --ext .js"
+    "waka": "node ./app/index.js",
+    "lint": "eslint ./app --ext .js"
   },
   "author": "Chris Kipp",
   "license": "MIT",
