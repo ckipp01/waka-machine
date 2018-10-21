@@ -87,7 +87,7 @@ trainingUtils.formatInput = (input) => {
     // TODO replace this with a reduce
     input.forEach(record => {
       Promise.all([
-        getDayOfWeek(new Date(record.start)),
+        getDayOfWeek(new Date(record.data[0].range.date)),
         formatLanguages(record.data[0].languages),
         formatOperatingSystems(record.data[0].operating_systems)
       ])

@@ -2,33 +2,50 @@
 const { describe, it } = require('mocha')
 const trainingUtils = require('../../app/utils/training-utils')
 const path = require('path')
-var assert = require('assert')
+const assert = require('assert')
 
-describe('training-utils', function () {
-  describe('gatherJSON()', function () {
-    const dir = path.join(__dirname, '../resources/')
-    const trainingData = trainingUtils.gatherJSON(dir)
+const dir = path.join(__dirname, '../resources/')
+const trainingData = trainingUtils.gatherJSON(dir)
+const rawFileCount = 23
+const formattedCount = 20
 
-    it('should return an array', function () {
+describe('training-utils', () => {
+  describe('gatherJSON()', () => {
+    it('should return an array', () => {
       trainingData.then(result =>
         assert(Array.isArray(result))
       )
     })
-    it('return array should contain 23 items', function () {
+
+    it(`return array should contain ${rawFileCount} items`, () => {
       return trainingData.then(result =>
-        assert.strictEqual(23, result.length)
+        assert.strictEqual(rawFileCount, result.length)
       )
     })
-    it('array should contain only objects', function () {
+
+    it('array should contain only objects', () => {
       return trainingData.then(result => {
         const resultType = result.map(o => typeof o === 'object')
         assert.notStrictEqual(true, resultType.includes(false))
       })
     })
-    it('object structure should contain data, end, and start', function () {
+
+    it('object structure should contain data, end, and start', () => {
       const expectedKeys = [ 'data', 'end', 'start' ]
       return trainingData.then(result =>
         assert.deepStrictEqual(expectedKeys, Object.keys(result[0]))
+      )
+    })
+  })
+
+  describe('formatInput()', () => {
+    const formatedData = trainingData.then(result =>
+      trainingUtils.formatInput(result)
+    )
+
+    it(`formatted array should contain ${formattedCount} items`, () => {
+      return formatedData.then(data =>
+        assert.strictEqual(formattedCount, data.length)
       )
     })
   })

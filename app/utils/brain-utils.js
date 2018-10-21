@@ -1,3 +1,4 @@
+'use strict'
 const brain = require('brain.js')
 let brainUtils = module.exports = {}
 
