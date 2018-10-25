@@ -10,7 +10,7 @@ The projects utilizes the [brain.js neural network](https://github.com/BrainJS/b
 
 - [x] Gather training data
 - [x] Get initial output with training data
-- [ ] Test coverage of all utilities _in progress_
+- [ ] Test coverage of all exposed utilities _in progress_
 - [ ] Get this hosted on a server and dockerized
 - [ ] Get Mongo.db or an alternative to store daily json
 - [ ] Add functionality to automatically get the recent days coding activity and store it

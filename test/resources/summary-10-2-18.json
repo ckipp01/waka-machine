@@ -1,1 +1,1144 @@
-{"data":[{"categories":[{"digital":"2:37:11","hours":2,"minutes":37,"name":"Coding","percent":100.00,"seconds":11,"text":"2 hrs 37 mins","total_seconds":9431}],"dependencies":[{"digital":"0:00:51","hours":0,"minutes":0,"name":"file-loader","percent":1.01,"seconds":51,"text":"51 secs","total_seconds":51},{"digital":"0:00:51","hours":0,"minutes":0,"name":"babel-plugin-transform-remove-strict-mode","percent":1.01,"seconds":51,"text":"51 secs","total_seconds":51},{"digital":"0:00:51","hours":0,"minutes":0,"name":"prettier","percent":1.01,"seconds":51,"text":"51 secs","total_seconds":51},{"digital":"0:00:51","hours":0,"minutes":0,"name":"babel-core","percent":1.01,"seconds":51,"text":"51 secs","total_seconds":51},{"digital":"0:00:51","hours":0,"minutes":0,"name":"react-test-renderer","percent":1.01,"seconds":51,"text":"51 secs","total_seconds":51},{"digital":"0:00:51","hours":0,"minutes":0,"name":"babel-preset-env","percent":1.01,"seconds":51,"text":"51 secs","total_seconds":51},{"digital":"0:00:51","hours":0,"minutes":0,"name":"babel-eslint","percent":1.01,"seconds":51,"text":"51 secs","total_seconds":51},{"digital":"0:00:51","hours":0,"minutes":0,"name":"babel-polyfill","percent":1.01,"seconds":51,"text":"51 secs","total_seconds":51},{"digital":"0:00:51","hours":0,"minutes":0,"name":"body-parser","percent":1.01,"seconds":51,"text":"51 secs","total_seconds":51},{"digital":"0:00:51","hours":0,"minutes":0,"name":"eslint-config-prettier","percent":1.01,"seconds":51,"text":"51 secs","total_seconds":51},{"digital":"0:00:51","hours":0,"minutes":0,"name":"debug","percent":1.01,"seconds":51,"text":"51 secs","total_seconds":51},{"digital":"0:00:51","hours":0,"minutes":0,"name":"chai","percent":1.01,"seconds":51,"text":"51 secs","total_seconds":51},{"digital":"0:00:51","hours":0,"minutes":0,"name":"istanbul-lib-source-maps","percent":1.01,"seconds":51,"text":"51 secs","total_seconds":51},{"digital":"0:00:51","hours":0,"minutes":0,"name":"keymirror","percent":1.01,"seconds":51,"text":"51 secs","total_seconds":51},{"digital":"0:00:51","hours":0,"minutes":0,"name":"babel-cli","percent":1.01,"seconds":51,"text":"51 secs","total_seconds":51},{"digital":"0:00:51","hours":0,"minutes":0,"name":"extract-text-webpack-plugin","percent":1.01,"seconds":51,"text":"51 secs","total_seconds":51},{"digital":"0:00:51","hours":0,"minutes":0,"name":"file-saver","percent":1.01,"seconds":51,"text":"51 secs","total_seconds":51},{"digital":"0:00:51","hours":0,"minutes":0,"name":"react-transition-group","percent":1.01,"seconds":51,"text":"51 secs","total_seconds":51},{"digital":"0:00:51","hours":0,"minutes":0,"name":"hoek","percent":1.01,"seconds":51,"text":"51 secs","total_seconds":51},{"digital":"0:00:51","hours":0,"minutes":0,"name":"jwt-simple","percent":1.01,"seconds":51,"text":"51 secs","total_seconds":51},{"digital":"0:00:51","hours":0,"minutes":0,"name":"react-textarea-autosize","percent":1.01,"seconds":51,"text":"51 secs","total_seconds":51},{"digital":"0:00:51","hours":0,"minutes":0,"name":"depcheck","percent":1.01,"seconds":51,"text":"51 secs","total_seconds":51},{"digital":"0:00:51","hours":0,"minutes":0,"name":"flux","percent":1.01,"seconds":51,"text":"51 secs","total_seconds":51},{"digital":"0:00:51","hours":0,"minutes":0,"name":"jsdom","percent":1.01,"seconds":51,"text":"51 secs","total_seconds":51},{"digital":"0:00:51","hours":0,"minutes":0,"name":"babel-preset-react","percent":1.01,"seconds":51,"text":"51 secs","total_seconds":51},{"digital":"0:00:51","hours":0,"minutes":0,"name":"enzyme-adapter-react-16","percent":1.01,"seconds":51,"text":"51 secs","total_seconds":51},{"digital":"0:00:51","hours":0,"minutes":0,"name":"react","percent":1.01,"seconds":51,"text":"51 secs","total_seconds":51},{"digital":"0:00:51","hours":0,"minutes":0,"name":"bootstrap","percent":1.01,"seconds":51,"text":"51 secs","total_seconds":51},{"digital":"0:00:51","hours":0,"minutes":0,"name":"flatpickr","percent":1.01,"seconds":51,"text":"51 secs","total_seconds":51},{"digital":"0:00:51","hours":0,"minutes":0,"name":"pretty-quick","percent":1.01,"seconds":51,"text":"51 secs","total_seconds":51},{"digital":"0:00:51","hours":0,"minutes":0,"name":"detect-browser","percent":1.01,"seconds":51,"text":"51 secs","total_seconds":51},{"digital":"0:00:51","hours":0,"minutes":0,"name":"archiver","percent":1.01,"seconds":51,"text":"51 secs","total_seconds":51},{"digital":"0:00:51","hours":0,"minutes":0,"name":"jquery","percent":1.01,"seconds":51,"text":"51 secs","total_seconds":51},{"digital":"0:00:51","hours":0,"minutes":0,"name":"npm","percent":1.01,"seconds":51,"text":"51 secs","total_seconds":51},{"digital":"0:00:51","hours":0,"minutes":0,"name":"deepmerge","percent":1.01,"seconds":51,"text":"51 secs","total_seconds":51},{"digital":"0:00:51","hours":0,"minutes":0,"name":"i18next","percent":1.01,"seconds":51,"text":"51 secs","total_seconds":51},{"digital":"0:00:51","hours":0,"minutes":0,"name":"cross-env","percent":1.01,"seconds":51,"text":"51 secs","total_seconds":51},{"digital":"0:00:51","hours":0,"minutes":0,"name":"style-loader","percent":1.01,"seconds":51,"text":"51 secs","total_seconds":51},{"digital":"0:00:51","hours":0,"minutes":0,"name":"mocha-junit-reporter","percent":1.01,"seconds":51,"text":"51 secs","total_seconds":51},{"digital":"0:00:51","hours":0,"minutes":0,"name":"mustache","percent":1.01,"seconds":51,"text":"51 secs","total_seconds":51},{"digital":"0:00:51","hours":0,"minutes":0,"name":"css-loader","percent":1.01,"seconds":51,"text":"51 secs","total_seconds":51},{"digital":"0:00:51","hours":0,"minutes":0,"name":"ms","percent":1.01,"seconds":51,"text":"51 secs","total_seconds":51},{"digital":"0:00:51","hours":0,"minutes":0,"name":"stickyfilljs","percent":1.01,"seconds":51,"text":"51 secs","total_seconds":51},{"digital":"0:00:51","hours":0,"minutes":0,"name":"fs-extra","percent":1.01,"seconds":51,"text":"51 secs","total_seconds":51},{"digital":"0:00:51","hours":0,"minutes":0,"name":"immutable","percent":1.01,"seconds":51,"text":"51 secs","total_seconds":51},{"digital":"0:00:51","hours":0,"minutes":0,"name":"jasmine-reporters","percent":1.01,"seconds":51,"text":"51 secs","total_seconds":51},{"digital":"0:00:51","hours":0,"minutes":0,"name":"enzyme","percent":1.01,"seconds":51,"text":"51 secs","total_seconds":51},{"digital":"0:00:51","hours":0,"minutes":0,"name":"glob","percent":1.01,"seconds":51,"text":"51 secs","total_seconds":51},{"digital":"0:00:51","hours":0,"minutes":0,"name":"nyc","percent":1.01,"seconds":51,"text":"51 secs","total_seconds":51},{"digital":"0:00:51","hours":0,"minutes":0,"name":"xmldom","percent":1.01,"seconds":51,"text":"51 secs","total_seconds":51},{"digital":"0:00:51","hours":0,"minutes":0,"name":"cookie-parser","percent":1.01,"seconds":51,"text":"51 secs","total_seconds":51},{"digital":"0:00:51","hours":0,"minutes":0,"name":"webpack-dev-middleware","percent":1.01,"seconds":51,"text":"51 secs","total_seconds":51},{"digital":"0:00:51","hours":0,"minutes":0,"name":"react-router","percent":1.01,"seconds":51,"text":"51 secs","total_seconds":51},{"digital":"0:00:51","hours":0,"minutes":0,"name":"less","percent":1.01,"seconds":51,"text":"51 secs","total_seconds":51},{"digital":"0:00:51","hours":0,"minutes":0,"name":"istanbul-lib-instrument","percent":1.01,"seconds":51,"text":"51 secs","total_seconds":51},{"digital":"0:00:51","hours":0,"minutes":0,"name":"ebpi-react-flatpickr","percent":1.01,"seconds":51,"text":"51 secs","total_seconds":51},{"digital":"0:00:51","hours":0,"minutes":0,"name":"event-emitter","percent":1.01,"seconds":51,"text":"51 secs","total_seconds":51},{"digital":"0:00:51","hours":0,"minutes":0,"name":"lodash.isempty","percent":1.01,"seconds":51,"text":"51 secs","total_seconds":51},{"digital":"0:00:51","hours":0,"minutes":0,"name":"saxon-js","percent":1.01,"seconds":51,"text":"51 secs","total_seconds":51},{"digital":"0:00:51","hours":0,"minutes":0,"name":"eslint-plugin-jsx-a11y","percent":1.01,"seconds":51,"text":"51 secs","total_seconds":51},{"digital":"0:00:51","hours":0,"minutes":0,"name":"moment-timezone","percent":1.01,"seconds":51,"text":"51 secs","total_seconds":51},{"digital":"0:00:51","hours":0,"minutes":0,"name":"traverse","percent":1.01,"seconds":51,"text":"51 secs","total_seconds":51},{"digital":"0:00:51","hours":0,"minutes":0,"name":"express-http-proxy","percent":1.01,"seconds":51,"text":"51 secs","total_seconds":51},{"digital":"0:00:51","hours":0,"minutes":0,"name":"express","percent":1.01,"seconds":51,"text":"51 secs","total_seconds":51},{"digital":"0:00:51","hours":0,"minutes":0,"name":"babel-preset-stage-0","percent":1.01,"seconds":51,"text":"51 secs","total_seconds":51},{"digital":"0:00:51","hours":0,"minutes":0,"name":"react-immutable-proptypes","percent":1.01,"seconds":51,"text":"51 secs","total_seconds":51},{"digital":"0:00:51","hours":0,"minutes":0,"name":"react-modal","percent":1.01,"seconds":51,"text":"51 secs","total_seconds":51},{"digital":"0:00:51","hours":0,"minutes":0,"name":"prop-types","percent":1.01,"seconds":51,"text":"51 secs","total_seconds":51},{"digital":"0:00:51","hours":0,"minutes":0,"name":"moment","percent":1.01,"seconds":51,"text":"51 secs","total_seconds":51},{"digital":"0:00:51","hours":0,"minutes":0,"name":"patch","percent":1.01,"seconds":51,"text":"51 secs","total_seconds":51},{"digital":"0:00:51","hours":0,"minutes":0,"name":"eslint-plugin-react","percent":1.01,"seconds":51,"text":"51 secs","total_seconds":51},{"digital":"0:00:51","hours":0,"minutes":0,"name":"webpack","percent":1.01,"seconds":51,"text":"51 secs","total_seconds":51},{"digital":"0:00:51","hours":0,"minutes":0,"name":"chai-as-promised","percent":1.01,"seconds":51,"text":"51 secs","total_seconds":51},{"digital":"0:00:51","hours":0,"minutes":0,"name":"babel-plugin-transform-object-assign","percent":1.01,"seconds":51,"text":"51 secs","total_seconds":51},{"digital":"0:00:51","hours":0,"minutes":0,"name":"rimraf","percent":1.01,"seconds":51,"text":"51 secs","total_seconds":51},{"digital":"0:00:51","hours":0,"minutes":0,"name":"babel-loader","percent":1.01,"seconds":51,"text":"51 secs","total_seconds":51},{"digital":"0:00:51","hours":0,"minutes":0,"name":"uuid","percent":1.01,"seconds":51,"text":"51 secs","total_seconds":51},{"digital":"0:00:51","hours":0,"minutes":0,"name":"font-awesome","percent":1.01,"seconds":51,"text":"51 secs","total_seconds":51},{"digital":"0:00:51","hours":0,"minutes":0,"name":"mocha","percent":1.01,"seconds":51,"text":"51 secs","total_seconds":51},{"digital":"0:00:51","hours":0,"minutes":0,"name":"brace-expansion","percent":1.01,"seconds":51,"text":"51 secs","total_seconds":51},{"digital":"0:00:51","hours":0,"minutes":0,"name":"deep-assign","percent":1.01,"seconds":51,"text":"51 secs","total_seconds":51},{"digital":"0:00:51","hours":0,"minutes":0,"name":"url-loader","percent":1.01,"seconds":51,"text":"51 secs","total_seconds":51},{"digital":"0:00:51","hours":0,"minutes":0,"name":"eslint-config-ebpi","percent":1.01,"seconds":51,"text":"51 secs","total_seconds":51},{"digital":"0:00:51","hours":0,"minutes":0,"name":"eslint-plugin-import","percent":1.01,"seconds":51,"text":"51 secs","total_seconds":51},{"digital":"0:00:51","hours":0,"minutes":0,"name":"babel-plugin-transform-class-properties","percent":1.01,"seconds":51,"text":"51 secs","total_seconds":51},{"digital":"0:00:51","hours":0,"minutes":0,"name":"babel-istanbul","percent":1.01,"seconds":51,"text":"51 secs","total_seconds":51},{"digital":"0:00:51","hours":0,"minutes":0,"name":"lodash","percent":1.01,"seconds":51,"text":"51 secs","total_seconds":51},{"digital":"0:00:51","hours":0,"minutes":0,"name":"react-dom","percent":1.01,"seconds":51,"text":"51 secs","total_seconds":51},{"digital":"0:00:51","hours":0,"minutes":0,"name":"babel-preset-es2015","percent":1.01,"seconds":51,"text":"51 secs","total_seconds":51},{"digital":"0:00:51","hours":0,"minutes":0,"name":"babel-template","percent":1.01,"seconds":51,"text":"51 secs","total_seconds":51},{"digital":"0:00:51","hours":0,"minutes":0,"name":"less-loader","percent":1.01,"seconds":51,"text":"51 secs","total_seconds":51},{"digital":"0:00:51","hours":0,"minutes":0,"name":"sinon","percent":1.01,"seconds":51,"text":"51 secs","total_seconds":51},{"digital":"0:00:51","hours":0,"minutes":0,"name":"babel-types","percent":1.01,"seconds":51,"text":"51 secs","total_seconds":51},{"digital":"0:00:51","hours":0,"minutes":0,"name":"babel-plugin-rewire","percent":1.01,"seconds":51,"text":"51 secs","total_seconds":51},{"digital":"0:00:51","hours":0,"minutes":0,"name":"eslint","percent":1.01,"seconds":51,"text":"51 secs","total_seconds":51},{"digital":"0:00:51","hours":0,"minutes":0,"name":"isomorphic-fetch","percent":1.01,"seconds":51,"text":"51 secs","total_seconds":51},{"digital":"0:00:51","hours":0,"minutes":0,"name":"eslint-plugin-prettier","percent":1.01,"seconds":51,"text":"51 secs","total_seconds":51},{"digital":"0:00:51","hours":0,"minutes":0,"name":"react-bootstrap","percent":1.01,"seconds":51,"text":"51 secs","total_seconds":51},{"digital":"0:00:51","hours":0,"minutes":0,"name":"tether","percent":1.01,"seconds":51,"text":"51 secs","total_seconds":51}],"editors":[{"digital":"2:34:38","hours":2,"minutes":34,"name":"Vim","percent":98.39,"seconds":38,"text":"2 hrs 34 mins","total_seconds":9278},{"digital":"0:02:32","hours":0,"minutes":2,"name":"IntelliJ","percent":1.61,"seconds":32,"text":"2 mins","total_seconds":152}],"grand_total":{"digital":"2:37","hours":2,"minutes":37,"text":"2 hrs 37 mins","total_seconds":9432},"languages":[{"digital":"2:09:32","hours":2,"minutes":9,"name":"JavaScript","percent":82.41,"seconds":32,"text":"2 hrs 9 mins","total_seconds":7772},{"digital":"0:12:00","hours":0,"minutes":12,"name":"Markdown","percent":7.63,"seconds":0,"text":"12 mins","total_seconds":720},{"digital":"0:09:37","hours":0,"minutes":9,"name":"JSON","percent":6.12,"seconds":37,"text":"9 mins","total_seconds":577},{"digital":"0:03:19","hours":0,"minutes":3,"name":"Other","percent":2.11,"seconds":19,"text":"3 mins","total_seconds":199},{"digital":"0:02:43","hours":0,"minutes":2,"name":"VimL","percent":1.73,"seconds":43,"text":"2 mins","total_seconds":163}],"operating_systems":[{"digital":"2:37:11","hours":2,"minutes":37,"name":"Linux","percent":100.00,"seconds":11,"text":"2 hrs 37 mins","total_seconds":9431}],"projects":[{"digital":"2:19:10","hours":2,"minutes":19,"name":"tundra","percent":88.53,"seconds":10,"text":"2 hrs 19 mins","total_seconds":8350},{"digital":"0:12:00","hours":0,"minutes":12,"name":"notes","percent":7.63,"seconds":0,"text":"12 mins","total_seconds":720},{"digital":"0:06:02","hours":0,"minutes":6,"name":"Unknown Project","percent":3.84,"seconds":2,"text":"6 mins","total_seconds":362}],"range":{"date":"2018-10-02","end":"2018-10-02T21:59:59Z","start":"2018-10-01T22:00:00Z","text":"Tue Oct 2nd 2018","timezone":"Europe/Amsterdam"}}],"end":"2018-10-02T21:59:59Z","start":"2018-10-01T22:00:00Z"}
+{
+  "data": [
+    {
+      "categories": [
+        {
+          "digital": "2:37:11",
+          "hours": 2,
+          "minutes": 37,
+          "name": "Coding",
+          "percent": 100,
+          "seconds": 11,
+          "text": "2 hrs 37 mins",
+          "total_seconds": 9431
+        }
+      ],
+      "dependencies": [
+        {
+          "digital": "0:00:51",
+          "hours": 0,
+          "minutes": 0,
+          "name": "file-loader",
+          "percent": 1.01,
+          "seconds": 51,
+          "text": "51 secs",
+          "total_seconds": 51
+        },
+        {
+          "digital": "0:00:51",
+          "hours": 0,
+          "minutes": 0,
+          "name": "babel-plugin-transform-remove-strict-mode",
+          "percent": 1.01,
+          "seconds": 51,
+          "text": "51 secs",
+          "total_seconds": 51
+        },
+        {
+          "digital": "0:00:51",
+          "hours": 0,
+          "minutes": 0,
+          "name": "prettier",
+          "percent": 1.01,
+          "seconds": 51,
+          "text": "51 secs",
+          "total_seconds": 51
+        },
+        {
+          "digital": "0:00:51",
+          "hours": 0,
+          "minutes": 0,
+          "name": "babel-core",
+          "percent": 1.01,
+          "seconds": 51,
+          "text": "51 secs",
+          "total_seconds": 51
+        },
+        {
+          "digital": "0:00:51",
+          "hours": 0,
+          "minutes": 0,
+          "name": "react-test-renderer",
+          "percent": 1.01,
+          "seconds": 51,
+          "text": "51 secs",
+          "total_seconds": 51
+        },
+        {
+          "digital": "0:00:51",
+          "hours": 0,
+          "minutes": 0,
+          "name": "babel-preset-env",
+          "percent": 1.01,
+          "seconds": 51,
+          "text": "51 secs",
+          "total_seconds": 51
+        },
+        {
+          "digital": "0:00:51",
+          "hours": 0,
+          "minutes": 0,
+          "name": "babel-eslint",
+          "percent": 1.01,
+          "seconds": 51,
+          "text": "51 secs",
+          "total_seconds": 51
+        },
+        {
+          "digital": "0:00:51",
+          "hours": 0,
+          "minutes": 0,
+          "name": "babel-polyfill",
+          "percent": 1.01,
+          "seconds": 51,
+          "text": "51 secs",
+          "total_seconds": 51
+        },
+        {
+          "digital": "0:00:51",
+          "hours": 0,
+          "minutes": 0,
+          "name": "body-parser",
+          "percent": 1.01,
+          "seconds": 51,
+          "text": "51 secs",
+          "total_seconds": 51
+        },
+        {
+          "digital": "0:00:51",
+          "hours": 0,
+          "minutes": 0,
+          "name": "eslint-config-prettier",
+          "percent": 1.01,
+          "seconds": 51,
+          "text": "51 secs",
+          "total_seconds": 51
+        },
+        {
+          "digital": "0:00:51",
+          "hours": 0,
+          "minutes": 0,
+          "name": "debug",
+          "percent": 1.01,
+          "seconds": 51,
+          "text": "51 secs",
+          "total_seconds": 51
+        },
+        {
+          "digital": "0:00:51",
+          "hours": 0,
+          "minutes": 0,
+          "name": "chai",
+          "percent": 1.01,
+          "seconds": 51,
+          "text": "51 secs",
+          "total_seconds": 51
+        },
+        {
+          "digital": "0:00:51",
+          "hours": 0,
+          "minutes": 0,
+          "name": "istanbul-lib-source-maps",
+          "percent": 1.01,
+          "seconds": 51,
+          "text": "51 secs",
+          "total_seconds": 51
+        },
+        {
+          "digital": "0:00:51",
+          "hours": 0,
+          "minutes": 0,
+          "name": "keymirror",
+          "percent": 1.01,
+          "seconds": 51,
+          "text": "51 secs",
+          "total_seconds": 51
+        },
+        {
+          "digital": "0:00:51",
+          "hours": 0,
+          "minutes": 0,
+          "name": "babel-cli",
+          "percent": 1.01,
+          "seconds": 51,
+          "text": "51 secs",
+          "total_seconds": 51
+        },
+        {
+          "digital": "0:00:51",
+          "hours": 0,
+          "minutes": 0,
+          "name": "extract-text-webpack-plugin",
+          "percent": 1.01,
+          "seconds": 51,
+          "text": "51 secs",
+          "total_seconds": 51
+        },
+        {
+          "digital": "0:00:51",
+          "hours": 0,
+          "minutes": 0,
+          "name": "file-saver",
+          "percent": 1.01,
+          "seconds": 51,
+          "text": "51 secs",
+          "total_seconds": 51
+        },
+        {
+          "digital": "0:00:51",
+          "hours": 0,
+          "minutes": 0,
+          "name": "react-transition-group",
+          "percent": 1.01,
+          "seconds": 51,
+          "text": "51 secs",
+          "total_seconds": 51
+        },
+        {
+          "digital": "0:00:51",
+          "hours": 0,
+          "minutes": 0,
+          "name": "hoek",
+          "percent": 1.01,
+          "seconds": 51,
+          "text": "51 secs",
+          "total_seconds": 51
+        },
+        {
+          "digital": "0:00:51",
+          "hours": 0,
+          "minutes": 0,
+          "name": "jwt-simple",
+          "percent": 1.01,
+          "seconds": 51,
+          "text": "51 secs",
+          "total_seconds": 51
+        },
+        {
+          "digital": "0:00:51",
+          "hours": 0,
+          "minutes": 0,
+          "name": "react-textarea-autosize",
+          "percent": 1.01,
+          "seconds": 51,
+          "text": "51 secs",
+          "total_seconds": 51
+        },
+        {
+          "digital": "0:00:51",
+          "hours": 0,
+          "minutes": 0,
+          "name": "depcheck",
+          "percent": 1.01,
+          "seconds": 51,
+          "text": "51 secs",
+          "total_seconds": 51
+        },
+        {
+          "digital": "0:00:51",
+          "hours": 0,
+          "minutes": 0,
+          "name": "flux",
+          "percent": 1.01,
+          "seconds": 51,
+          "text": "51 secs",
+          "total_seconds": 51
+        },
+        {
+          "digital": "0:00:51",
+          "hours": 0,
+          "minutes": 0,
+          "name": "jsdom",
+          "percent": 1.01,
+          "seconds": 51,
+          "text": "51 secs",
+          "total_seconds": 51
+        },
+        {
+          "digital": "0:00:51",
+          "hours": 0,
+          "minutes": 0,
+          "name": "babel-preset-react",
+          "percent": 1.01,
+          "seconds": 51,
+          "text": "51 secs",
+          "total_seconds": 51
+        },
+        {
+          "digital": "0:00:51",
+          "hours": 0,
+          "minutes": 0,
+          "name": "enzyme-adapter-react-16",
+          "percent": 1.01,
+          "seconds": 51,
+          "text": "51 secs",
+          "total_seconds": 51
+        },
+        {
+          "digital": "0:00:51",
+          "hours": 0,
+          "minutes": 0,
+          "name": "react",
+          "percent": 1.01,
+          "seconds": 51,
+          "text": "51 secs",
+          "total_seconds": 51
+        },
+        {
+          "digital": "0:00:51",
+          "hours": 0,
+          "minutes": 0,
+          "name": "bootstrap",
+          "percent": 1.01,
+          "seconds": 51,
+          "text": "51 secs",
+          "total_seconds": 51
+        },
+        {
+          "digital": "0:00:51",
+          "hours": 0,
+          "minutes": 0,
+          "name": "flatpickr",
+          "percent": 1.01,
+          "seconds": 51,
+          "text": "51 secs",
+          "total_seconds": 51
+        },
+        {
+          "digital": "0:00:51",
+          "hours": 0,
+          "minutes": 0,
+          "name": "pretty-quick",
+          "percent": 1.01,
+          "seconds": 51,
+          "text": "51 secs",
+          "total_seconds": 51
+        },
+        {
+          "digital": "0:00:51",
+          "hours": 0,
+          "minutes": 0,
+          "name": "detect-browser",
+          "percent": 1.01,
+          "seconds": 51,
+          "text": "51 secs",
+          "total_seconds": 51
+        },
+        {
+          "digital": "0:00:51",
+          "hours": 0,
+          "minutes": 0,
+          "name": "archiver",
+          "percent": 1.01,
+          "seconds": 51,
+          "text": "51 secs",
+          "total_seconds": 51
+        },
+        {
+          "digital": "0:00:51",
+          "hours": 0,
+          "minutes": 0,
+          "name": "jquery",
+          "percent": 1.01,
+          "seconds": 51,
+          "text": "51 secs",
+          "total_seconds": 51
+        },
+        {
+          "digital": "0:00:51",
+          "hours": 0,
+          "minutes": 0,
+          "name": "npm",
+          "percent": 1.01,
+          "seconds": 51,
+          "text": "51 secs",
+          "total_seconds": 51
+        },
+        {
+          "digital": "0:00:51",
+          "hours": 0,
+          "minutes": 0,
+          "name": "deepmerge",
+          "percent": 1.01,
+          "seconds": 51,
+          "text": "51 secs",
+          "total_seconds": 51
+        },
+        {
+          "digital": "0:00:51",
+          "hours": 0,
+          "minutes": 0,
+          "name": "i18next",
+          "percent": 1.01,
+          "seconds": 51,
+          "text": "51 secs",
+          "total_seconds": 51
+        },
+        {
+          "digital": "0:00:51",
+          "hours": 0,
+          "minutes": 0,
+          "name": "cross-env",
+          "percent": 1.01,
+          "seconds": 51,
+          "text": "51 secs",
+          "total_seconds": 51
+        },
+        {
+          "digital": "0:00:51",
+          "hours": 0,
+          "minutes": 0,
+          "name": "style-loader",
+          "percent": 1.01,
+          "seconds": 51,
+          "text": "51 secs",
+          "total_seconds": 51
+        },
+        {
+          "digital": "0:00:51",
+          "hours": 0,
+          "minutes": 0,
+          "name": "mocha-junit-reporter",
+          "percent": 1.01,
+          "seconds": 51,
+          "text": "51 secs",
+          "total_seconds": 51
+        },
+        {
+          "digital": "0:00:51",
+          "hours": 0,
+          "minutes": 0,
+          "name": "mustache",
+          "percent": 1.01,
+          "seconds": 51,
+          "text": "51 secs",
+          "total_seconds": 51
+        },
+        {
+          "digital": "0:00:51",
+          "hours": 0,
+          "minutes": 0,
+          "name": "css-loader",
+          "percent": 1.01,
+          "seconds": 51,
+          "text": "51 secs",
+          "total_seconds": 51
+        },
+        {
+          "digital": "0:00:51",
+          "hours": 0,
+          "minutes": 0,
+          "name": "ms",
+          "percent": 1.01,
+          "seconds": 51,
+          "text": "51 secs",
+          "total_seconds": 51
+        },
+        {
+          "digital": "0:00:51",
+          "hours": 0,
+          "minutes": 0,
+          "name": "stickyfilljs",
+          "percent": 1.01,
+          "seconds": 51,
+          "text": "51 secs",
+          "total_seconds": 51
+        },
+        {
+          "digital": "0:00:51",
+          "hours": 0,
+          "minutes": 0,
+          "name": "fs-extra",
+          "percent": 1.01,
+          "seconds": 51,
+          "text": "51 secs",
+          "total_seconds": 51
+        },
+        {
+          "digital": "0:00:51",
+          "hours": 0,
+          "minutes": 0,
+          "name": "immutable",
+          "percent": 1.01,
+          "seconds": 51,
+          "text": "51 secs",
+          "total_seconds": 51
+        },
+        {
+          "digital": "0:00:51",
+          "hours": 0,
+          "minutes": 0,
+          "name": "jasmine-reporters",
+          "percent": 1.01,
+          "seconds": 51,
+          "text": "51 secs",
+          "total_seconds": 51
+        },
+        {
+          "digital": "0:00:51",
+          "hours": 0,
+          "minutes": 0,
+          "name": "enzyme",
+          "percent": 1.01,
+          "seconds": 51,
+          "text": "51 secs",
+          "total_seconds": 51
+        },
+        {
+          "digital": "0:00:51",
+          "hours": 0,
+          "minutes": 0,
+          "name": "glob",
+          "percent": 1.01,
+          "seconds": 51,
+          "text": "51 secs",
+          "total_seconds": 51
+        },
+        {
+          "digital": "0:00:51",
+          "hours": 0,
+          "minutes": 0,
+          "name": "nyc",
+          "percent": 1.01,
+          "seconds": 51,
+          "text": "51 secs",
+          "total_seconds": 51
+        },
+        {
+          "digital": "0:00:51",
+          "hours": 0,
+          "minutes": 0,
+          "name": "xmldom",
+          "percent": 1.01,
+          "seconds": 51,
+          "text": "51 secs",
+          "total_seconds": 51
+        },
+        {
+          "digital": "0:00:51",
+          "hours": 0,
+          "minutes": 0,
+          "name": "cookie-parser",
+          "percent": 1.01,
+          "seconds": 51,
+          "text": "51 secs",
+          "total_seconds": 51
+        },
+        {
+          "digital": "0:00:51",
+          "hours": 0,
+          "minutes": 0,
+          "name": "webpack-dev-middleware",
+          "percent": 1.01,
+          "seconds": 51,
+          "text": "51 secs",
+          "total_seconds": 51
+        },
+        {
+          "digital": "0:00:51",
+          "hours": 0,
+          "minutes": 0,
+          "name": "react-router",
+          "percent": 1.01,
+          "seconds": 51,
+          "text": "51 secs",
+          "total_seconds": 51
+        },
+        {
+          "digital": "0:00:51",
+          "hours": 0,
+          "minutes": 0,
+          "name": "less",
+          "percent": 1.01,
+          "seconds": 51,
+          "text": "51 secs",
+          "total_seconds": 51
+        },
+        {
+          "digital": "0:00:51",
+          "hours": 0,
+          "minutes": 0,
+          "name": "istanbul-lib-instrument",
+          "percent": 1.01,
+          "seconds": 51,
+          "text": "51 secs",
+          "total_seconds": 51
+        },
+        {
+          "digital": "0:00:51",
+          "hours": 0,
+          "minutes": 0,
+          "name": "ebpi-react-flatpickr",
+          "percent": 1.01,
+          "seconds": 51,
+          "text": "51 secs",
+          "total_seconds": 51
+        },
+        {
+          "digital": "0:00:51",
+          "hours": 0,
+          "minutes": 0,
+          "name": "event-emitter",
+          "percent": 1.01,
+          "seconds": 51,
+          "text": "51 secs",
+          "total_seconds": 51
+        },
+        {
+          "digital": "0:00:51",
+          "hours": 0,
+          "minutes": 0,
+          "name": "lodash.isempty",
+          "percent": 1.01,
+          "seconds": 51,
+          "text": "51 secs",
+          "total_seconds": 51
+        },
+        {
+          "digital": "0:00:51",
+          "hours": 0,
+          "minutes": 0,
+          "name": "saxon-js",
+          "percent": 1.01,
+          "seconds": 51,
+          "text": "51 secs",
+          "total_seconds": 51
+        },
+        {
+          "digital": "0:00:51",
+          "hours": 0,
+          "minutes": 0,
+          "name": "eslint-plugin-jsx-a11y",
+          "percent": 1.01,
+          "seconds": 51,
+          "text": "51 secs",
+          "total_seconds": 51
+        },
+        {
+          "digital": "0:00:51",
+          "hours": 0,
+          "minutes": 0,
+          "name": "moment-timezone",
+          "percent": 1.01,
+          "seconds": 51,
+          "text": "51 secs",
+          "total_seconds": 51
+        },
+        {
+          "digital": "0:00:51",
+          "hours": 0,
+          "minutes": 0,
+          "name": "traverse",
+          "percent": 1.01,
+          "seconds": 51,
+          "text": "51 secs",
+          "total_seconds": 51
+        },
+        {
+          "digital": "0:00:51",
+          "hours": 0,
+          "minutes": 0,
+          "name": "express-http-proxy",
+          "percent": 1.01,
+          "seconds": 51,
+          "text": "51 secs",
+          "total_seconds": 51
+        },
+        {
+          "digital": "0:00:51",
+          "hours": 0,
+          "minutes": 0,
+          "name": "express",
+          "percent": 1.01,
+          "seconds": 51,
+          "text": "51 secs",
+          "total_seconds": 51
+        },
+        {
+          "digital": "0:00:51",
+          "hours": 0,
+          "minutes": 0,
+          "name": "babel-preset-stage-0",
+          "percent": 1.01,
+          "seconds": 51,
+          "text": "51 secs",
+          "total_seconds": 51
+        },
+        {
+          "digital": "0:00:51",
+          "hours": 0,
+          "minutes": 0,
+          "name": "react-immutable-proptypes",
+          "percent": 1.01,
+          "seconds": 51,
+          "text": "51 secs",
+          "total_seconds": 51
+        },
+        {
+          "digital": "0:00:51",
+          "hours": 0,
+          "minutes": 0,
+          "name": "react-modal",
+          "percent": 1.01,
+          "seconds": 51,
+          "text": "51 secs",
+          "total_seconds": 51
+        },
+        {
+          "digital": "0:00:51",
+          "hours": 0,
+          "minutes": 0,
+          "name": "prop-types",
+          "percent": 1.01,
+          "seconds": 51,
+          "text": "51 secs",
+          "total_seconds": 51
+        },
+        {
+          "digital": "0:00:51",
+          "hours": 0,
+          "minutes": 0,
+          "name": "moment",
+          "percent": 1.01,
+          "seconds": 51,
+          "text": "51 secs",
+          "total_seconds": 51
+        },
+        {
+          "digital": "0:00:51",
+          "hours": 0,
+          "minutes": 0,
+          "name": "patch",
+          "percent": 1.01,
+          "seconds": 51,
+          "text": "51 secs",
+          "total_seconds": 51
+        },
+        {
+          "digital": "0:00:51",
+          "hours": 0,
+          "minutes": 0,
+          "name": "eslint-plugin-react",
+          "percent": 1.01,
+          "seconds": 51,
+          "text": "51 secs",
+          "total_seconds": 51
+        },
+        {
+          "digital": "0:00:51",
+          "hours": 0,
+          "minutes": 0,
+          "name": "webpack",
+          "percent": 1.01,
+          "seconds": 51,
+          "text": "51 secs",
+          "total_seconds": 51
+        },
+        {
+          "digital": "0:00:51",
+          "hours": 0,
+          "minutes": 0,
+          "name": "chai-as-promised",
+          "percent": 1.01,
+          "seconds": 51,
+          "text": "51 secs",
+          "total_seconds": 51
+        },
+        {
+          "digital": "0:00:51",
+          "hours": 0,
+          "minutes": 0,
+          "name": "babel-plugin-transform-object-assign",
+          "percent": 1.01,
+          "seconds": 51,
+          "text": "51 secs",
+          "total_seconds": 51
+        },
+        {
+          "digital": "0:00:51",
+          "hours": 0,
+          "minutes": 0,
+          "name": "rimraf",
+          "percent": 1.01,
+          "seconds": 51,
+          "text": "51 secs",
+          "total_seconds": 51
+        },
+        {
+          "digital": "0:00:51",
+          "hours": 0,
+          "minutes": 0,
+          "name": "babel-loader",
+          "percent": 1.01,
+          "seconds": 51,
+          "text": "51 secs",
+          "total_seconds": 51
+        },
+        {
+          "digital": "0:00:51",
+          "hours": 0,
+          "minutes": 0,
+          "name": "uuid",
+          "percent": 1.01,
+          "seconds": 51,
+          "text": "51 secs",
+          "total_seconds": 51
+        },
+        {
+          "digital": "0:00:51",
+          "hours": 0,
+          "minutes": 0,
+          "name": "font-awesome",
+          "percent": 1.01,
+          "seconds": 51,
+          "text": "51 secs",
+          "total_seconds": 51
+        },
+        {
+          "digital": "0:00:51",
+          "hours": 0,
+          "minutes": 0,
+          "name": "mocha",
+          "percent": 1.01,
+          "seconds": 51,
+          "text": "51 secs",
+          "total_seconds": 51
+        },
+        {
+          "digital": "0:00:51",
+          "hours": 0,
+          "minutes": 0,
+          "name": "brace-expansion",
+          "percent": 1.01,
+          "seconds": 51,
+          "text": "51 secs",
+          "total_seconds": 51
+        },
+        {
+          "digital": "0:00:51",
+          "hours": 0,
+          "minutes": 0,
+          "name": "deep-assign",
+          "percent": 1.01,
+          "seconds": 51,
+          "text": "51 secs",
+          "total_seconds": 51
+        },
+        {
+          "digital": "0:00:51",
+          "hours": 0,
+          "minutes": 0,
+          "name": "url-loader",
+          "percent": 1.01,
+          "seconds": 51,
+          "text": "51 secs",
+          "total_seconds": 51
+        },
+        {
+          "digital": "0:00:51",
+          "hours": 0,
+          "minutes": 0,
+          "name": "eslint-config-ebpi",
+          "percent": 1.01,
+          "seconds": 51,
+          "text": "51 secs",
+          "total_seconds": 51
+        },
+        {
+          "digital": "0:00:51",
+          "hours": 0,
+          "minutes": 0,
+          "name": "eslint-plugin-import",
+          "percent": 1.01,
+          "seconds": 51,
+          "text": "51 secs",
+          "total_seconds": 51
+        },
+        {
+          "digital": "0:00:51",
+          "hours": 0,
+          "minutes": 0,
+          "name": "babel-plugin-transform-class-properties",
+          "percent": 1.01,
+          "seconds": 51,
+          "text": "51 secs",
+          "total_seconds": 51
+        },
+        {
+          "digital": "0:00:51",
+          "hours": 0,
+          "minutes": 0,
+          "name": "babel-istanbul",
+          "percent": 1.01,
+          "seconds": 51,
+          "text": "51 secs",
+          "total_seconds": 51
+        },
+        {
+          "digital": "0:00:51",
+          "hours": 0,
+          "minutes": 0,
+          "name": "lodash",
+          "percent": 1.01,
+          "seconds": 51,
+          "text": "51 secs",
+          "total_seconds": 51
+        },
+        {
+          "digital": "0:00:51",
+          "hours": 0,
+          "minutes": 0,
+          "name": "react-dom",
+          "percent": 1.01,
+          "seconds": 51,
+          "text": "51 secs",
+          "total_seconds": 51
+        },
+        {
+          "digital": "0:00:51",
+          "hours": 0,
+          "minutes": 0,
+          "name": "babel-preset-es2015",
+          "percent": 1.01,
+          "seconds": 51,
+          "text": "51 secs",
+          "total_seconds": 51
+        },
+        {
+          "digital": "0:00:51",
+          "hours": 0,
+          "minutes": 0,
+          "name": "babel-template",
+          "percent": 1.01,
+          "seconds": 51,
+          "text": "51 secs",
+          "total_seconds": 51
+        },
+        {
+          "digital": "0:00:51",
+          "hours": 0,
+          "minutes": 0,
+          "name": "less-loader",
+          "percent": 1.01,
+          "seconds": 51,
+          "text": "51 secs",
+          "total_seconds": 51
+        },
+        {
+          "digital": "0:00:51",
+          "hours": 0,
+          "minutes": 0,
+          "name": "sinon",
+          "percent": 1.01,
+          "seconds": 51,
+          "text": "51 secs",
+          "total_seconds": 51
+        },
+        {
+          "digital": "0:00:51",
+          "hours": 0,
+          "minutes": 0,
+          "name": "babel-types",
+          "percent": 1.01,
+          "seconds": 51,
+          "text": "51 secs",
+          "total_seconds": 51
+        },
+        {
+          "digital": "0:00:51",
+          "hours": 0,
+          "minutes": 0,
+          "name": "babel-plugin-rewire",
+          "percent": 1.01,
+          "seconds": 51,
+          "text": "51 secs",
+          "total_seconds": 51
+        },
+        {
+          "digital": "0:00:51",
+          "hours": 0,
+          "minutes": 0,
+          "name": "eslint",
+          "percent": 1.01,
+          "seconds": 51,
+          "text": "51 secs",
+          "total_seconds": 51
+        },
+        {
+          "digital": "0:00:51",
+          "hours": 0,
+          "minutes": 0,
+          "name": "isomorphic-fetch",
+          "percent": 1.01,
+          "seconds": 51,
+          "text": "51 secs",
+          "total_seconds": 51
+        },
+        {
+          "digital": "0:00:51",
+          "hours": 0,
+          "minutes": 0,
+          "name": "eslint-plugin-prettier",
+          "percent": 1.01,
+          "seconds": 51,
+          "text": "51 secs",
+          "total_seconds": 51
+        },
+        {
+          "digital": "0:00:51",
+          "hours": 0,
+          "minutes": 0,
+          "name": "react-bootstrap",
+          "percent": 1.01,
+          "seconds": 51,
+          "text": "51 secs",
+          "total_seconds": 51
+        },
+        {
+          "digital": "0:00:51",
+          "hours": 0,
+          "minutes": 0,
+          "name": "tether",
+          "percent": 1.01,
+          "seconds": 51,
+          "text": "51 secs",
+          "total_seconds": 51
+        }
+      ],
+      "editors": [
+        {
+          "digital": "2:34:38",
+          "hours": 2,
+          "minutes": 34,
+          "name": "Vim",
+          "percent": 98.39,
+          "seconds": 38,
+          "text": "2 hrs 34 mins",
+          "total_seconds": 9278
+        },
+        {
+          "digital": "0:02:32",
+          "hours": 0,
+          "minutes": 2,
+          "name": "IntelliJ",
+          "percent": 1.61,
+          "seconds": 32,
+          "text": "2 mins",
+          "total_seconds": 152
+        }
+      ],
+      "grand_total": {
+        "digital": "2:37",
+        "hours": 2,
+        "minutes": 37,
+        "text": "2 hrs 37 mins",
+        "total_seconds": 9432
+      },
+      "languages": [
+        {
+          "digital": "2:09:32",
+          "hours": 2,
+          "minutes": 9,
+          "name": "JavaScript",
+          "percent": 82.41,
+          "seconds": 32,
+          "text": "2 hrs 9 mins",
+          "total_seconds": 7772
+        },
+        {
+          "digital": "0:12:00",
+          "hours": 0,
+          "minutes": 12,
+          "name": "Markdown",
+          "percent": 7.63,
+          "seconds": 0,
+          "text": "12 mins",
+          "total_seconds": 720
+        },
+        {
+          "digital": "0:09:37",
+          "hours": 0,
+          "minutes": 9,
+          "name": "JSON",
+          "percent": 6.12,
+          "seconds": 37,
+          "text": "9 mins",
+          "total_seconds": 577
+        },
+        {
+          "digital": "0:03:19",
+          "hours": 0,
+          "minutes": 3,
+          "name": "Other",
+          "percent": 2.11,
+          "seconds": 19,
+          "text": "3 mins",
+          "total_seconds": 199
+        },
+        {
+          "digital": "0:02:43",
+          "hours": 0,
+          "minutes": 2,
+          "name": "VimL",
+          "percent": 1.73,
+          "seconds": 43,
+          "text": "2 mins",
+          "total_seconds": 163
+        }
+      ],
+      "operating_systems": [
+        {
+          "digital": "2:37:11",
+          "hours": 2,
+          "minutes": 37,
+          "name": "Linux",
+          "percent": 100,
+          "seconds": 11,
+          "text": "2 hrs 37 mins",
+          "total_seconds": 9431
+        }
+      ],
+      "projects": [
+        {
+          "digital": "2:19:10",
+          "hours": 2,
+          "minutes": 19,
+          "name": "tundra",
+          "percent": 88.53,
+          "seconds": 10,
+          "text": "2 hrs 19 mins",
+          "total_seconds": 8350
+        },
+        {
+          "digital": "0:12:00",
+          "hours": 0,
+          "minutes": 12,
+          "name": "notes",
+          "percent": 7.63,
+          "seconds": 0,
+          "text": "12 mins",
+          "total_seconds": 720
+        },
+        {
+          "digital": "0:06:02",
+          "hours": 0,
+          "minutes": 6,
+          "name": "Unknown Project",
+          "percent": 3.84,
+          "seconds": 2,
+          "text": "6 mins",
+          "total_seconds": 362
+        }
+      ],
+      "range": {
+        "date": "2018-10-02",
+        "end": "2018-10-02T21:59:59Z",
+        "start": "2018-10-01T22:00:00Z",
+        "text": "Tue Oct 2nd 2018",
+        "timezone": "Europe/Amsterdam"
+      }
+    }
+  ],
+  "end": "2018-10-02T21:59:59Z",
+  "start": "2018-10-01T22:00:00Z"
+}
