@@ -25,7 +25,8 @@ describe('training-utils', () => {
 
     it('array should contain only objects', () => {
       return trainingData.then(result => {
-        const resultType = result.map(o => typeof o === 'object')
+        const resultType = result.map(resultObject =>
+          typeof resultObject === 'object')
         assert.notStrictEqual(true, resultType.includes(false))
       })
     })
@@ -39,6 +40,10 @@ describe('training-utils', () => {
   })
 
   describe('formatInput()', () => {
+    const isNumeric = n => {
+      return !isNaN(parseFloat(n)) && isFinite(n)
+    }
+
     const formatedData = trainingData.then(result =>
       trainingUtils.formatInput(result)
     )
@@ -47,6 +52,34 @@ describe('training-utils', () => {
       return formatedData.then(data =>
         assert.strictEqual(formattedCount, data.length)
       )
+    })
+
+    it('formattedData should include an input and and ouput', () => {
+      return formatedData.then(data => {
+        const inputAndOutputResults = data.map(dataObject =>
+          Object.keys(dataObject).length === 2)
+        assert.strictEqual(false, inputAndOutputResults.includes(false))
+      })
+    })
+
+    it('input object should not be empty and only have numeric values', () => {
+      return formatedData.then(data => {
+        const inputValueTypes = data.map(dataObject =>
+          Object.values(dataObject.input))
+        const merged = [].concat.apply([], inputValueTypes)
+        const numeric = merged.map(value => isNumeric(value))
+        assert.strictEqual(false, numeric.includes(false))
+      })
+    })
+
+    it('output object should not be empty and only have numeric values', () => {
+      return formatedData.then(data => {
+        const inputValueTypes = data.map(dataObject =>
+          Object.values(dataObject.output))
+        const merged = [].concat.apply([], inputValueTypes)
+        const numeric = merged.map(value => isNumeric(value))
+        assert.strictEqual(false, numeric.includes(false))
+      })
     })
   })
 })
