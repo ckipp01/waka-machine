@@ -8,6 +8,8 @@ This will eventually be utilized by the [ándaga-core](https://github.com/ckipp0
 
 The projects utilizes the [brain.js neural network](https://github.com/BrainJS/brain.js) and the [wakatime api](https://wakatime.com/developers) to gather training data.
 
+![Terminal output of waka-machine](images/waka-machine.png "waka-machine terminal view")
+
 ### TODO
 
 - [x] Gather training data
